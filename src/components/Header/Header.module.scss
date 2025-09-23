@@ -1,0 +1,160 @@
+.header {
+  position: fixed; // sahifaning yuqorisiga yopishtiriladi
+  top: 0;
+  left: 0;
+  width: 100%; background: rgba(255, 255, 255, 0.103); // yarim shaffof oq fon
+  backdrop-filter: blur(5px); // blur effekti
+  -webkit-backdrop-filter: blur(10px); // Safari uchun qo‘shimcha
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0);// shaffof fon
+  padding: 0.5rem 0;
+  z-index: 2000; // hero ustida chiqishi uchun yuqori z-index
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.7rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+// scroll qilinganda oq fon chiqishi
+.scrolled {
+  background: rgba(255, 255, 255, 0.103); // yarim shaffof oq fon
+  backdrop-filter: blur(50px); // blur effekti
+  -webkit-backdrop-filter: blur(10px); // Safari uchun qo‘shimcha
+
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  img {
+    height: 40px;
+  }
+
+  .brand {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+
+    .title {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #1d3557;
+    }
+
+    .tagline {
+      font-size: 0.8rem;
+      color: #666;
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+    position: relative;
+    transition: 0.3s;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: #0077ff;
+      transition: width 0.3s;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+
+  .active {
+    color: #0077ff;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  a {
+    font-size: 1.2rem;
+    color: #333;
+    transition: 0.3s;
+
+    &:hover {
+      color: #0077ff;
+    }
+  }
+
+  .lang {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+
+    select {
+      border: none;
+      font-size: 0.9rem;
+      background: transparent;
+      cursor: pointer;
+    }
+  }
+
+  .mobileToggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}
+
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  a {
+    padding: 0.7rem 0;
+    text-decoration: none;
+    color: #333;
+
+    &:hover {
+      color: #0077ff;
+    }
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  .mobileToggle {
+    display: block !important;
+  }
+}
