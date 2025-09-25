@@ -1,0 +1,110 @@
+/* Global sozlamalar uchun taxminiy ranglar */
+$primary-blue: #1d3557; // To'q ko'k
+$light-blue-bg: #f7f9fc; // Eng yengil fon rangi (butun bo'lim foni)
+$card-bg: #ffffff; // Kartochka foni
+$text-color: #4a4a4a; // Asosiy matn rangi
+$quote-color: #333333; // Iqtibos matn rangi
+$link-color: #007bff; // Havola rangi (pastki ko'k)
+$border-color: #e0e0e0; // Chegaralar uchun yengil rang
+
+.section {
+    padding: 80px 0;
+    background-color: $light-blue-bg; /* Asosiy fon rasmdagi kabi yengil kulrang-ko'k */
+    font-family: 'Inter', sans-serif; /* Shrfit o'rniga oddiy sans-serif ishlatildi */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    color: $primary-blue; 
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: $text-color;
+    margin-bottom: 40px;
+}
+
+.cardsGrid {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Kartochkalar orasidagi masofa */
+
+    /* Kichik ekranlar uchun tartib */
+    @media (max-width: 1024px) {
+        flex-wrap: wrap;
+    }
+}
+
+.card {
+    background-color: $card-bg;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Yengil soya */
+    text-align: left;
+    flex-basis: calc(33.333% - 20px); /* 3 ta ustun */
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    /* Rasmdagi yengil ko'k fonni taqlid qilish */
+    background-color: #f8fbff; 
+    border: 1px solid #eef3f9;
+}
+
+.rating {
+    margin-bottom: 15px;
+}
+
+.star {
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+.quote {
+    font-size: 16px;
+    line-height: 1.6;
+    color: $quote-color;
+    font-style: italic;
+    margin-bottom: 20px;
+    flex-grow: 1; /* Iqtibos matni kartochkaning asosiy qismini egallaydi */
+}
+
+.authorInfo {
+    border-top: 1px solid $border-color;
+    padding-top: 15px;
+}
+
+.authorName {
+    font-size: 15px;
+    font-weight: 600;
+    color: $quote-color;
+    margin-bottom: 4px;
+}
+
+.authorCountry {
+    font-size: 14px;
+    color: $text-color;
+    margin-bottom: 8px;
+}
+
+.tourLink {
+    font-size: 14px;
+    color: $link-color;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+
+    &:hover {
+        color: darken($link-color, 15%);
+    }
+}
