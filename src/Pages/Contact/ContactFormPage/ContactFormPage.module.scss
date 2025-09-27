@@ -1,0 +1,272 @@
+/* ContactFormPage.module.scss */
+
+// Ranglar
+$section-bg: #f9fafb;      // Section fonining ochiq kulrang rangi
+$card-bg: #ffffff;         // Kartalar va formaning oq foni
+$primary-blue: #1e3a8a;    // To'q ko'k rang (Sarlavhalar)
+$light-blue: #eff6ff;      // Ikon fonining ochiq ko'k rangi
+$icon-color: #3b82f6;      // Ikon va asosiy linklarning ko'k rangi
+$text-color-primary: #374151; // Asosiy matn rangi
+$text-color-secondary: #6b7280; // Ikkinchi darajali matn/placeholder
+$whatsapp-green: #25d366;  // WhatsApp yashil rangi
+$info-box-bg: #eef2ff;     // Info boxning juda ochiq ko'k foni
+
+.pageContainer {
+  padding: 80px 20px;
+  background-color: $section-bg;
+  display: flex;
+  justify-content: center;
+}
+
+.contentGrid {
+  display: grid;
+  // Katta ekranlarda 2 ustun: Kontakt 1.2 qism, Forma 1.8 qism
+  grid-template-columns: 1.2fr 1.8fr; 
+  gap: 40px;
+  max-width: 1200px;
+  width: 100%;
+
+  @media (max-width: 992px) {
+    grid-template-columns: 1fr; // Kichik ekranlarda bitta ustun
+  }
+}
+
+// --- CHAP QISM: Kontakt Ma'lumotlari Stili ---
+
+.infoTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: $primary-blue;
+  margin-bottom: 30px;
+}
+
+.contactCard {
+  display: flex;
+  align-items: flex-start;
+  background-color: $card-bg;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); // Juda yengil soya
+}
+
+.iconWrapper {
+  flex-shrink: 0; // Ikon kichrayib ketmasligi uchun
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: $light-blue;
+  margin-right: 15px;
+}
+
+.cardIcon {
+  color: $icon-color;
+}
+
+.cardBody {
+  flex-grow: 1;
+}
+
+.cardHeading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: $primary-blue;
+  margin-bottom: 5px;
+}
+
+.cardDetailPrimary {
+  font-size: 0.95rem;
+  color: $text-color-primary;
+  margin-bottom: 2px;
+}
+
+.cardDetailSecondary {
+  font-size: 0.85rem;
+  color: $text-color-secondary;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.cardLinkPrimary {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: $icon-color;
+  text-decoration: none;
+  margin-bottom: 2px;
+}
+.cardLinkSecondary {
+  display: block;
+  font-size: 0.9rem;
+  color: $icon-color;
+  text-decoration: none;
+  margin-bottom: 2px;
+}
+
+/* WhatsApp Card uchun alohida stil */
+.whatsappCard {
+  @extend .contactCard; // Asosiy kartani meros qilib oladi
+  border-top: 1px solid #eee;
+  margin-top: 20px;
+}
+
+.whatsappButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  background-color: $whatsapp-green;
+  color: #ffffff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 10px;
+
+  &:hover {
+    background-color: darken($whatsapp-green, 8%);
+  }
+}
+
+// --- O'NG QISM: Forma Stili ---
+
+.formContainer {
+  background-color: $card-bg;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.formTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: $primary-blue;
+  margin-bottom: 10px;
+}
+
+.formSubtitle {
+  font-size: 0.95rem;
+  color: $text-color-secondary;
+  margin-bottom: 30px;
+}
+
+.inputGroupRow {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 15px;
+
+  label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: $text-color-primary;
+    margin-bottom: 5px;
+  }
+
+  input, textarea, select {
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: $text-color-primary;
+    
+    &::placeholder {
+      color: $text-color-secondary;
+    }
+    &:focus {
+      border-color: $icon-color;
+      outline: none;
+      box-shadow: 0 0 0 1px $icon-color;
+    }
+  }
+
+  textarea {
+    resize: vertical;
+  }
+}
+
+.customSelect {
+  position: relative;
+  select {
+    appearance: none; /* Standart brauzer stilini o'chirish */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 30px; /* O'ngda joy ajratish */
+    cursor: pointer;
+  }
+  
+  /* Maxsus pastga yo'naltirilgan o'q (select) */
+  &::after {
+    content: '▼'; 
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 0.7rem;
+    color: $text-color-secondary;
+  }
+}
+
+
+.sendButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 0;
+  background-color: $icon-color; // Asosiy ko'k rang
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: darken($icon-color, 8%);
+  }
+}
+
+.infoBox {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 25px;
+  padding: 10px;
+  background-color: $info-box-bg; // Ochiq ko'k fon
+  border-radius: 4px;
+
+  p {
+    font-size: 0.85rem;
+    color: $text-color-secondary;
+    line-height: 1.4;
+
+    strong {
+      font-weight: 600;
+      color: $text-color-primary;
+    }
+  }
+}
+
+.infoIcon {
+  flex-shrink: 0;
+  color: $icon-color;
+  margin-top: 2px;
+}

@@ -1,15 +1,18 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import s from "./HomePage.module.scss";
-import images from "../../assets/getItems"; // obyekt sifatida keladi
+import images from "../../assets/getItems";
 import WhyChoose from "./WhyChoose/WhyChoose";
 import AdventureBanner from "./AdventureBanner/AdventureBanner";
 import TestimonialsSection from "./TestimonialsSection/TestimonialsSection";
 import FeaturedTours from "./FeaturedTours/FeaturedTours";
 
 export default function HomePage() {
+  const { t, i18n } = useTranslation();
+
   return (
     <>
-    <div className={s.home}>
+      <div className={s.home}>
         {/* Hero Section */}
         <section
           className={s.hero}
@@ -17,25 +20,17 @@ export default function HomePage() {
         >
           <div className={s.overlay}></div>
           <div className={s.content}>
-            <h1>TravelUz bilan dunyoni kashf eting</h1>
-            <p>
-              Qiziqarli sayohatlar, arzon chipta va eng yaxshi xizmatlarni biz
-              orqali toping.
-            </p>
-            <button className={s.btn}>Boshlash</button>
+            <h1>{t("home.hero.title")}</h1>
+            <p>{t("home.hero.subtitle")}</p>
+            <button className={s.btn}>{t("home.hero.button")}</button>
           </div>
         </section>
-
-        {/* Services Section */}
-      
-
-        {/* Call to Action */}
-       
       </div>
-      <FeaturedTours/>
-      <TestimonialsSection/>
+
+      <FeaturedTours />
+      <TestimonialsSection />
       <WhyChoose />
-      <AdventureBanner/>
+      <AdventureBanner />
     </>
   );
 }

@@ -1,8 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import s from "./AdventureBanner.module.scss";
-import bannerImg from "../../../assets/Banner/HomeFooterBanner.png"; // rasmni o‘zing joylashtir
+import bannerImg from "../../../assets/Banner/HomeFooterBanner.png";
 
 export default function AdventureBanner() {
+  const { t, i18n } = useTranslation();
+  console.log("Current language:", i18n.language);
+
   return (
     <section
       className={s.banner}
@@ -10,20 +14,17 @@ export default function AdventureBanner() {
     >
       <div className={s.overlay}>
         <div className={s.content}>
-          <h2>Ready for Your Central Asia Adventure?</h2>
-          <p>
-            Let us create an unforgettable journey through the ancient Silk Road.
-            Contact our team today to start planning your dream tour to Uzbekistan.
-          </p>
+          <h2>{t("adventureBanner.title")}</h2>
+          <p>{t("adventureBanner.description")}</p>
           <div className={s.actions}>
-            <button className={s.primary}>Get In Touch</button>
+            <button className={s.primary}>{t("adventureBanner.buttonPrimary")}</button>
             <a
               href="https://wa.me/998914004459"
               target="_blank"
               rel="noopener noreferrer"
               className={s.whatsapp}
             >
-              WhatsApp Us
+              {t("adventureBanner.buttonWhatsapp")}
             </a>
           </div>
         </div>

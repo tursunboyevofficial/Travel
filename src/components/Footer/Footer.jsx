@@ -1,57 +1,56 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import s from "./Footer.module.scss";
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className={s.footer}>
       <div className={s.container}>
         <div className={s.columns}>
           <div className={s.column}>
             <h3 className={`${s.logo} ${s.logo1}`}>Samanid<span>Travel</span></h3>
-            <p>
-              Markaziy Osiyoda mohirlik bilan tuzilgan sayohatlar. Ipak yo‘li
-              shaharlari, jumladan, qadimiy Samarqand me’morchiligi va Buxoro
-              ko‘chalari.
-            </p>
-            <p>📍 Mustakillik 54/1, Buxoro, Uzbekistan</p>
-            <p>📞 +998 91 400 44 59 / +998 90 715 51 98</p>
-            <p>✉️ beenur@samanidtravel.com</p>
-            <p>✉️ anwaratsaxon1@gmail.com</p>
-            <p>🕘 Dushanba - Juma: 9:00 - 18:00</p>
+            <p>{t("footer.description")}</p>
+            <p>📍 {t("footer.address")}</p>
+            <p>📞 {t("footer.phone")}</p>
+            <p>✉️ {t("footer.email1")}</p>
+            <p>✉️ {t("footer.email2")}</p>
+            <p>🕘 {t("footer.hours")}</p>
           </div>
 
           <div className={s.column}>
-            <h4>Tezkor havolalar</h4>
+            <h4>{t("footer.quickLinks.title")}</h4>
             <ul>
-              <li><a href="/">Bosh sahifa</a></li>
-              <li><a href="/tours">Turlar</a></li>
-              <li><a href="/about">Biz haqimizda</a></li>
-              <li><a href="/contact">Aloqa</a></li>
+              <li><a href="/">{t("footer.quickLinks.home")}</a></li>
+              <li><a href="/tours">{t("footer.quickLinks.tours")}</a></li>
+              <li><a href="/about">{t("footer.quickLinks.about")}</a></li>
+              <li><a href="/contact">{t("footer.quickLinks.contact")}</a></li>
             </ul>
           </div>
 
           <div className={s.column}>
-            <h4>Yo‘nalishlar</h4>
+            <h4>{t("footer.destinations.title")}</h4>
             <ul>
-              <li>Samarkand</li>
-              <li>Bukhara</li>
-              <li>Khiva</li>
-              <li>Tashkent</li>
-              <li>Fergana Valley</li>
+              <li>{t("footer.destinations.samarkand")}</li>
+              <li>{t("footer.destinations.bukhara")}</li>
+              <li>{t("footer.destinations.khiva")}</li>
+              <li>{t("footer.destinations.tashkent")}</li>
+              <li>{t("footer.destinations.fergana")}</li>
             </ul>
           </div>
 
           <div className={s.column}>
-            <h4>Bizni kuzating</h4>
+            <h4>{t("footer.followUs.title")}</h4>
             <div className={s.social}>
-              <a href="https://instagram.com" target="_blank" rel="noreferrer">📷 Instagram</a>
-              <a href="https://facebook.com" target="_blank" rel="noreferrer">📘 Facebook</a>
+              <a href="https://instagram.com" target="_blank" rel="noreferrer">📷 {t("footer.followUs.instagram")}</a>
+              <a href="https://facebook.com" target="_blank" rel="noreferrer">📘 {t("footer.followUs.facebook")}</a>
             </div>
           </div>
         </div>
 
         <div className={s.copy}>
-          © 2024 SamanidTravel. All rights reserved. Discover the wonders of Central Asia
+          {t("footer.copyright")}
         </div>
       </div>
     </footer>

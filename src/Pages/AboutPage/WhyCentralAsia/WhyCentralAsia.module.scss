@@ -1,0 +1,116 @@
+/* WhyCentralAsia.module.scss */
+
+$section-bg: #f9fafb;      // Sectionning ochiq fon rangi
+$primary-blue: #1e3a8a;    // To'q ko'k rang (Sarlavha)
+$text-color: #4b5563;      // Asosiy matn rangi
+$bullet-color: #3b82f6;    // List nuqtasi rangi (ko'k)
+$card-bg: #ffffff;         // Rasm va matn joylashgan oq kartaning foni
+$card-radius: 12px;
+
+.sectionContainer {
+  padding: 80px 0px;
+  background-color: $section-bg;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.contentWrapper {
+  padding: 40px 200px;
+  display: flex;
+  gap: 50px;
+  max-width: 100%;
+  width: 100%;
+  height: 50%;
+  
+  // Asosiy kontent joylashgan oq kartaning stiliga e'tibor berish
+  background-color: $card-bg;
+  border-radius: $card-radius;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  // padding: 40px; // Ichki padding
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    padding: 30px;
+  }
+}
+
+.imageCard {
+  display: block;
+  flex-direction: column;
+  width: 45%;
+  height: 400px;
+  // flex: 0 0 45%; // Taxminan 45% maydonni egallaydi
+  
+  @media (max-width: 992px) {
+    flex: 1;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+}
+
+.mainImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: $card-radius; // Rasmdagi kabi burchak radiuslari
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  // flex: 0 0 55%; // Taxminan 55% maydonni egallaydi
+  padding-left: 20px; // Rasm va matn orasidagi gorizontal bo'shliqni ta'minlaydi
+
+  @media (max-width: 992px) {
+    padding-left: 0;
+  }
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: $primary-blue;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1rem;
+  color: $text-color;
+  line-height: 1.6;
+  margin-bottom: 25px;
+
+  strong {
+    font-weight: 600;
+  }
+}
+
+.bulletList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  font-size: 1rem;
+  color: $text-color;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+
+  // Maxsus ko'k nuqta (bullet) yaratish
+  &::before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: $bullet-color;
+    margin-right: 15px;
+    margin-top: 8px; /* Matnning yuqori qismiga moslash */
+    flex-shrink: 0;
+  }
+}

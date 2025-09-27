@@ -1,0 +1,104 @@
+/* CtaBanner.module.scss */
+
+$primary-bg-dark: #1f2937;    // Asosiy quyuq fon rangi
+$overlay-color: rgba(0, 0, 0, 0.4); // Fonni quyuqlashtirish uchun overlay
+$text-light: #f3f4f6;         // Ochiq matn rangi
+$button-primary: #3b82f6;     // Asosiy tugma ko'k rangi
+$button-secondary-bg: #4b5563; // Ikkinchi tugma orqa foni (rasmga yaqin)
+$button-secondary-border: #d1d5db; // Ikkinchi tugma borderi
+
+.ctaSection {
+  position: relative;
+  padding: 80px 20px;
+  background-color: $primary-bg-dark;
+  text-align: center;
+  overflow: hidden;
+
+  // Fon rasmini joylashtirish
+  background-image: url('https://picsum.photos/seed/bukhara_dark/1400/800'); /* Haqiqiy rasm linkini joylashtiring */
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll; // Rasmdagi kabi
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $overlay-color; // Fonni biroz quyuqlashtiruvchi qatlam
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2; // Overlay ustida bo'lishi uchun
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff; // Oq rang
+  margin-bottom: 15px;
+  // Rasmdagi kabi sarlavhaga yengil soya berish
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: $text-light;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+// Umumiy tugma stili
+.callButtonPrimary,
+.callButtonSecondary {
+  display: inline-block;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s, border-color 0.3s;
+
+  @media (max-width: 600px) {
+    width: 80%;
+    max-width: 300px;
+  }
+}
+
+// 1-tugma (Ko'k)
+.callButtonPrimary {
+  background-color: $button-primary;
+  color: #ffffff;
+  border: 1px solid $button-primary;
+
+  &:hover {
+    background-color: darken($button-primary, 10%);
+  }
+}
+
+// 2-tugma (Oq ramkali, kulrang fon)
+.callButtonSecondary {
+  background-color: transparent; /* Fon kulrang emas, transparent bo'lishi kerak. Kulrang rasm overlayidan keladi */
+  color: #ffffff;
+  border: 2px solid #ffffff; /* Oq ramka */
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}

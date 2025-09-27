@@ -1,0 +1,93 @@
+/* CoreValues.module.scss */
+
+// Ranglar
+$section-bg: #f9fafb;      // Section fonining ochiq kulrang rangi (rasmdagi)
+$card-bg: #ffffff;         // Kartalar fonining oq rangi
+$primary-blue: #1e3a8a;    // Asosiy to'q ko'k (Sarlavha)
+$icon-bg-light: #eff6ff;   // Ikon fonidagi juda ochiq ko'k aylana
+$icon-color: #2563EB;      // Ikon rangi (to'q ko'k)
+$text-color: #4b5563;      // Matn rangi
+$border-radius: 8px;
+
+.coreValuesSection {
+  padding: 80px 20px;
+  background-color: $section-bg; // Ochiq kulrang fon
+  text-align: center;
+}
+
+.header {
+  max-width: 600px;
+  margin: 0 auto 60px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: $primary-blue;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: $text-color;
+  font-weight: 400;
+}
+
+.gridContainer {
+  display: grid;
+  // 4 ta ustun. Katta ekranlar uchun
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+
+  @media (min-width: 901px) {
+     grid-template-columns: repeat(2, 1fr);
+     // Rasmdagi kabi ikki qator, ikki ustun tartibi
+  }
+  
+  @media (max-width: 600px) {
+    // Kichik ekranlarda bitta ustun
+    grid-template-columns: 1fr;
+  }
+}
+
+.valueCard {
+  background-color: $card-bg;
+  padding: 30px;
+  border-radius: $border-radius;
+  text-align: left;
+  // Rasmdagi juda yengil soya effekti
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px; // Rasmdagi kabi kichikroq o'lcham
+  height: 44px;
+  border-radius: 50%;
+  background-color: $icon-bg-light; // Juda ochiq ko'k fon
+  margin-bottom: 20px;
+}
+
+.icon {
+  color: $icon-color; // To'q ko'k ikon rangi
+}
+
+.cardTitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: $primary-blue;
+  margin-bottom: 10px;
+}
+
+.cardText {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: $text-color;
+}

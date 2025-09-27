@@ -1,0 +1,431 @@
+{
+  "coreValues": {
+    "heading": "What Drives Us",
+    "subheading": "Our core values guide every decision we make and every experience we create.",
+    "heritage": {
+      "title": "Passion for Heritage",
+      "text": "We are deeply passionate about preserving and sharing the rich cultural heritage of Central Asia with visitors from around the world."
+    },
+    "service": {
+      "title": "Personalized Service",
+      "text": "Every traveler is unique. We tailor our services to match your interests, ensuring an authentic and memorable experience."
+    },
+    "expertise": {
+      "title": "Local Expertise",
+      "text": "Our team consists of experienced local guides who know the hidden gems and stories behind every monument and tradition."
+    },
+    "sustainability": {
+      "title": "Sustainable Tourism",
+      "text": "We promote responsible travel that benefits local communities while preserving historical sites for future generations."
+    }
+  },
+    "about": {
+      "hero": {
+        "title": "Our Tour Packages",
+        "tagline": "Carefully crafted itineraries showcasing the best of Uzbekistan's historical treasures and cultural experiences"
+      }
+    
+  },
+    "cta": {
+      "title": "Ready to Discover Central Asia?",
+      "description": "Let us share our passion for this incredible region with you. Contact SamanidTravel today and begin planning your journey through the heart of the Silk Road.",
+      "call1": "Call:",
+      "call2": "Call:"
+    },
+      "culture": {
+        "title": "Connecting Cultures Through Travel",
+        "paragraph1": "SamanidTravel was founded with a simple yet powerful vision: to share the incredible beauty and rich heritage of Central Asia with travelers from around the world. Based in Bukhara, one of the most historic cities along the ancient Silk Road, we have deep roots in the region's culture and traditions.",
+        "paragraph2": "Our name honors the Samanid dynasty, which played a crucial role in the cultural and architectural development of Central Asia during the 9th and 10th centuries. Just as the Samanids were patrons of arts, culture, and learning, we strive to be cultural ambassadors, connecting international visitors with authentic local experiences.",
+        "paragraph3": "Every tour we organize is designed not just to show you the magnificent monuments and breathtaking landscapes, but to help you understand the stories, traditions, and people that make Central Asia truly special.",
+        "imageAlt": "Historic Central Asian architecture, possibly in Bukhara"
+      },
+        "numbers": {
+          "title": "Our Journey in Numbers",
+          "subtitle": "Building trust and creating memories, one journey at a time",
+          "travelers": "Happy Travelers",
+          "packages": "Tour Packages",
+          "experience": "Years Experience",
+          "destinations": "Destinations"
+        },
+          "whyCentralAsia": {
+            "title": "Why Central Asia?",
+            "description": "Central Asia, and particularly Uzbekistan, represents one of the world's most fascinating crossroads of civilizations. For over 2,000 years, this region has been the heart of the Silk Road, where East met West, and where some of humanity's greatest architectural and cultural achievements took place.",
+            "point1": "UNESCO World Heritage sites with stunning Islamic architecture",
+            "point2": "Rich traditions of craftsmanship, from silk weaving to ceramics",
+            "point3": "Warm hospitality and fascinating cultural diversity",
+            "point4": "Authentic experiences away from mass tourism",
+            "imageAlt": "Historic Central Asian minaret and architecture"
+          },
+            "coreValues": {
+              "heading": "What Drives Us",
+              "subheading": "Our core values guide every decision we make and every experience we create.",
+              "heritage": {
+                "title": "Passion for Heritage",
+                "text": "We are deeply passionate about preserving and sharing the rich cultural heritage of Central Asia with visitors from around the world."
+              },
+              "service": {
+                "title": "Personalized Service",
+                "text": "Every traveler is unique. We tailor our services to match your interests, ensuring an authentic and memorable experience."
+              },
+              "expertise": {
+                "title": "Local Expertise",
+                "text": "Our team consists of experienced local guides who know the hidden gems and stories behind every monument and tradition."
+              },
+              "sustainability": {
+                "title": "Sustainable Tourism",
+                "text": "We promote responsible travel that benefits local communities while preserving historical sites for future generations."
+              }
+            },
+          
+          
+
+
+
+
+
+
+        "about_hero_title": "Our Tour Packages",
+        "about_hero_tagline": "Carefully crafted itineraries showcasing the best of Uzbekistan's historical treasures and cultural experiences",
+        
+        "cta_title": "Ready to Discover Central Asia?",
+        "cta_description": "Let us share our passion for this incredible region with you. Contact SamanidTravel today and begin planning your journey through the heart of the Silk Road.",
+        "cta_call1": "Call:",
+        "cta_call2": "Call:" ,
+
+
+      
+
+
+
+        
+          "contact": {
+            "hero": {
+              "title": "Our Tour Packages",
+              "tagline": "Carefully crafted itineraries showcasing the best of Uzbekistan's historical treasures and cultural experiences"
+            }
+          },
+            "contactInfo": {
+              "heading": "Get In Touch",
+              "office": {
+                "title": "Our Office",
+                "address1": "Mustaqillik 56/1",
+                "address2": "Bukhara, Uzbekistan",
+                "note": "Located in the historic heart of Bukhara, near the ancient monuments."
+              },
+              "phone": {
+                "title": "Phone Numbers",
+                "main": "Main contact",
+                "alt": "Alternative contact"
+              },
+              "email": {
+                "title": "Email Addresses",
+                "general": "General inquiries",
+                "booking": "Tour bookings"
+              },
+              "hours": {
+                "title": "Business Hours",
+                "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+                "saturday": "Saturday: 10:00 AM - 4:00 PM",
+                "sunday": "Sunday: By appointment",
+                "note": "Emergency support available 24/7 during tours"
+              },
+              "whatsapp": {
+                "note": "For quick inquiries and real-time communication",
+                "button": "Chat on WhatsApp"
+              }
+            },
+            "contactForm": {
+              "title": "Plan Your Journey",
+              "subtitle": "Tell us about your travel preferences and we'll create a customized itinerary for you.",
+              "fullName": "Full Name *",
+              "fullNamePlaceholder": "Your full name",
+              "email": "Email Address *",
+              "emailPlaceholder": "your@email.com",
+              "phone": "Phone Number",
+              "phonePlaceholder": "Your phone number",
+              "package": "Interested Tour Package",
+              "packagePlaceholder": "Select a tour package",
+              "packageOptions": {
+                "silkRoad": "Classic Silk Road Tour",
+                "uzbekistan": "Uzbekistan Special",
+                "tailorMade": "Tailor-made Journey"
+              },
+              "message": "Your Message *",
+              "messagePlaceholder": "Tell us about your travel dates, group size, special interests, or any questions you have...",
+              "sendButton": "Send Inquiry",
+              "responseTime": "Response Time: We typically respond to inquiries within 24 hours. For urgent requests, please call us directly.",
+              "alert": "Form submitted! (This is a placeholder function)"
+            },
+              "faq": {
+                "heading": "Frequently Asked Questions",
+                "subtitle": "Common questions about traveling to Central Asia with SamanidTravel",
+                "q1": "What is the best time to visit Uzbekistan?",
+                "a1": "The best time to visit Uzbekistan is during spring (March–May) and autumn (September–November) when the weather is mild and perfect for sightseeing. Summer can be very hot, while winter is cold but still suitable for cultural tours.",
+                "q2": "Do I need a visa to visit Uzbekistan?",
+                "a2": "Visa requirements vary by nationality. Many countries now enjoy visa-free or e-visa access to Uzbekistan. We can provide detailed visa information and assistance based on your citizenship.",
+                "q3": "Are your tours suitable for solo travelers?",
+                "a3": "Absolutely! We welcome solo travelers and can arrange both group tours and private individual tours. Solo travelers often join our small group tours to meet like-minded people.",
+                "q4": "What languages do your guides speak?",
+                "a4": "Our professional guides speak English, Russian, and Uzbek fluently. We can also arrange guides who speak German, French, Spanish, Italian, and other languages upon request."
+              },
+                "payment": {
+                  "header": {
+                    "title": "Secure Payment Options",
+                    "subtitle": "We accept multiple currencies and payment methods for your convenience"
+                  },
+                  "howItWorks": {
+                    "title": "How It Works",
+                    "step1": {
+                      "title": "Choose Your Tour",
+                      "desc": "Browse our packages and select your perfect Central Asia adventure."
+                    },
+                    "step2": {
+                      "title": "Get Custom Quote",
+                      "desc": "We’ll create a personalized itinerary and pricing just for you."
+                    },
+                    "step3": {
+                      "title": "Secure Payment",
+                      "desc": "Pay safely with your preferred method and currency."
+                    },
+                    "step4": {
+                      "title": "Enjoy Your Journey",
+                      "desc": "Relax and let us handle everything for an unforgettable experience."
+                    }
+                  },
+                  "currencies": {
+                    "title": "Accepted Currencies",
+                    "popular": "Popular",
+                    "usd": "US Dollar",
+                    "eur": "Euro",
+                    "uzs": "Uzbek Som"
+                  },
+                  "methods": {
+                    "title": "Payment Methods",
+                    "card": {
+                      "title": "Credit/Debit Cards",
+                      "detail1": "Secure payments with major credit cards",
+                      "detail2": "Instant confirmation",
+                      "detail3": "Secure 3D verification",
+                      "detail4": "Global acceptance"
+                    },
+                    "bank": {
+                      "title": "Bank Transfer",
+                      "detail1": "Direct bank transfers and wire payments",
+                      "detail2": "Direct bank transfer",
+                      "detail3": "Lower fees",
+                      "detail4": "Secure processing"
+                    },
+                    "paypal": {
+                      "title": "PayPal",
+                      "detail1": "Quick and secure PayPal payments",
+                      "detail2": "Buyer protection",
+                      "detail3": "Quick checkout",
+                      "detail4": "Global coverage"
+                    }
+                  },
+                  "security": {
+                    "title": "Bank-Level Security",
+                    "item1": "All payments are processed through secure, encrypted connections",
+                    "item2": "SSL/TLS encryption",
+                    "item3": "PCI DSS compliant",
+                    "item4": "Fraud protection"
+                  },
+                  "terms": {
+                    "title": "Flexible Payment Terms",
+                    "item1": "Pay in installments or full amount - your choice",
+                    "item2": "30% deposit to confirm booking",
+                    "item3": "Remaining balance before tour",
+                    "item4": "Full refund for cancellations*"
+                  },
+                  "cta": {
+                    "title": "Ready to Book Your Adventure?",
+                    "subtitle": "Get a personalized quote for your dream tour to Central Asia. Our travel experts will create the perfect itinerary just for you.",
+                    "button1": "Get Free Quote",
+                    "button2": "Contact Us",
+                    "disclaimer": "*Terms and conditions apply. Contact us for full cancellation policy."
+                  }
+                },
+
+
+
+
+
+
+
+                
+                  "adventureBanner": {
+                    "title": "Ready for Your Central Asia Adventure?",
+                    "description": "Let us create an unforgettable journey through the ancient Silk Road. Contact our team today to start planning your dream tour to Uzbekistan.",
+                    "buttonPrimary": "Get In Touch",
+                    "buttonWhatsapp": "WhatsApp Us"
+                  },
+                    "featuredTours": {
+                      "heading": "Featured Tour Packages",
+                      "tagline": "Carefully crafted itineraries showcasing the best of Uzbekistan's historical treasures and cultural experiences",
+                      "learnMore": "Learn More",
+                      "requestQuote": "Request Quote",
+                      "highlightsLabel": "Highlights:",
+                      "tour1": {
+                        "title": "Classic Uzbekistan: Golden Triangle",
+                        "duration": "7 Days",
+                        "locations": "Tashkent - Samarkand - Bukhara",
+                        "description": "Discover the golden cities of Uzbekistan in this classic journey through Tashkent, Samarkand, and Bukhara. Experience the architectural wonders and rich history of the Silk Road.",
+                        "highlights": [
+                          "Registan Square",
+                          "Gur-Emir Mausoleum",
+                          "Ark Fortress",
+                          "Poi Kalyan Complex"
+                        ]
+                      },
+                      "tour2": {
+                        "title": "Ancient Cities of the Silk Road",
+                        "duration": "10 Days",
+                        "locations": "Tashkent - Samarkand - Bukhara - Khiva",
+                        "description": "Complete exploration of ancient Silk Road cities including the UNESCO World Heritage sites of Samarkand, Bukhara, and Khiva.",
+                        "highlights": [
+                          "Itchan Kala",
+                          "Shahi-i Zinda",
+                          "Lyab-i Hauz",
+                          "Kalta Minor Minaret"
+                        ]
+                      }
+                    },
+                      "testimonials": {
+                        "heading": "What Our Travelers Say",
+                        "subtitle": "Real experiences from real travelers",
+                        "1": {
+                          "quote": "An absolutely magical journey through Uzbekistan! The guides were incredibly knowledgeable and the historical sites were breathtaking.",
+                          "author": "Sarah Johnson",
+                          "country": "United Kingdom",
+                          "tour": "Golden Triangle Tour"
+                        },
+                        "2": {
+                          "quote": "Perfect organization and authentic experiences. The silk road cities exceeded all my expectations. Highly recommended!",
+                          "author": "Hans Mueller",
+                          "country": "Germany",
+                          "tour": "Ancient Cities Tour"
+                        },
+                        "3": {
+                          "quote": "The cultural immersion was incredible. From traditional crafts to local cuisine, every moment was unforgettable.",
+                          "author": "Marie Dubois",
+                          "country": "France",
+                          "tour": "Fergana Valley Tour"
+                        }
+                      },
+                        "whyChoose": {
+                          "heading": "Why Choose",
+                          "subheading": "We are passionate about sharing the beauty and heritage of Central Asia with travelers from around the world.",
+                          "feature1": {
+                            "title": "Local Expert Guides",
+                            "text": "Professional guides with deep knowledge of Uzbekistan’s history and culture."
+                          },
+                          "feature2": {
+                            "title": "Authentic Experiences",
+                            "text": "Opportunities to fully immerse in local customs and traditions."
+                          },
+                          "feature3": {
+                            "title": "Central Asia Specialists",
+                            "text": "Services exclusively focused on Uzbekistan and the Central Asian region."
+                          }
+                        },
+                          "home": {
+                            "hero": {
+                              "title": "Explore the World with Travel Uz",
+                              "subtitle": "Find exciting journeys, affordable tickets, and top-quality services — all through us.",
+                              "button": "Get Started"
+                            }
+                          },
+                            "tourCard": {
+                              "viewDetails": "View Details",
+                              "highlights": "Highlights",
+                              "viewLessHighlights": "View less highlights",
+                              "moreHighlights": "more highlights",
+                              "requestQuote": "Request Quote",
+                              "moreDetails": "More Details",
+                              "days": "Days",
+                              "nights": "Nights",
+                              "destinations": "Destinations",
+                              "alertQuote": "request sent.",
+                              "alertDetails": "navigated to details page.",
+                              "alertView": "image view clicked.",
+                              "alertDestination": "Destination selected"
+                            },
+                              "tours": {
+                                "title": "Our Tour Packages",
+                                "tagline": "Carefully crafted itineraries showcasing the best of Uzbekistan's historical treasures and cultural experiences"
+                              },
+                                "footer": {
+                                  "description": "Markaziy Osiyoda mohirlik bilan tuzilgan sayohatlar. Ipak yo‘li shaharlari, jumladan, qadimiy Samarqand me’morchiligi va Buxoro ko‘chalari.",
+                                  "address": "Mustaqillik 54/1, Buxoro, O‘zbekiston",
+                                  "phone": "+998 91 400 44 59 / +998 90 715 51 98",
+                                  "email1": "beenur@samanidtravel.com",
+                                  "email2": "anwaratsaxon1@gmail.com",
+                                  "hours": "Dushanba - Juma: 9:00 - 18:00",
+                                  "quickLinks": {
+                                    "title": "Tezkor havolalar",
+                                    "home": "Bosh sahifa",
+                                    "tours": "Turlar",
+                                    "about": "Biz haqimizda",
+                                    "contact": "Aloqa"
+                                  },
+                                  "destinations": {
+                                    "title": "Yo‘nalishlar",
+                                    "samarkand": "Samarqand",
+                                    "bukhara": "Buxoro",
+                                    "khiva": "Xiva",
+                                    "tashkent": "Toshkent",
+                                    "fergana": "Farg‘ona vodiysi"
+                                  },
+                                  "followUs": {
+                                    "title": "Bizni kuzating",
+                                    "instagram": "Instagram",
+                                    "facebook": "Facebook"
+                                  },
+                                  "copyright": "© 2024 SamanidTravel. Barcha huquqlar himoyalangan. Markaziy Osiyoning mo‘jizalarini kashf eting"
+                                },
+                              
+                              
+                              
+                              
+                            
+                            
+                          
+
+
+
+
+
+
+                            "header_tagline": "Discover Central Asia with Experts",
+                            "nav_home": "Home",
+                            "nav_tours": "Tours",
+                            "nav_about": "About Us",
+                            "nav_contact": "Contact"
+                          
+                          
+                        
+                        
+                      
+                      
+                      
+                      
+                    
+                    
+                  
+                  
+                
+                
+              
+              
+              
+              
+            
+            
+        
+    
+    
+   
+  
+  
+  
+}

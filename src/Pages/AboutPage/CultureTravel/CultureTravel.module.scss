@@ -1,0 +1,89 @@
+/* CultureTravel.module.scss */
+
+// Asosiy kontent kengligi va atrofidagi bo'sh joyni sozlash uchun
+$max-width: 1200px;
+$padding-x: 20px;
+
+.cultureTravelContainer {
+  display: flex;
+  justify-content: center;
+  padding: 50px $padding-x;
+  background-color: #ffffff; 
+}
+
+.cultureTravelContentWrapper {
+  max-width: $max-width;
+  width: 100%;
+}
+
+.title {
+  // Rasmdagi kabi katta, qalin, quyuq rang
+  font-size: 3rem; // Taxminan 48px
+  font-weight: 700;
+  color: #1e3a8a; 
+  margin-bottom: 30px;
+
+  // Mobil qurilmalar uchun kichraytiramiz
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.contentLayout {
+  display: flex;
+  gap: 60px; 
+
+  @media (max-width: 992px) {
+    // Kichikroq ekranlarda vertikal joylashuv
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+.titleGroup{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.textSection {
+  flex: 3;
+  line-height: 1.6;
+}
+
+.paragraph {
+  font-size: 1.05rem;
+  color: #4b5563; 
+  margin-bottom: 25px; 
+
+  // Qalin matnni ajratish
+  strong {
+    font-weight: 600;
+    color: #1f2937;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.imageSection {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.imageCard {
+  // Rasmdagi asosiy stil: oq fon, soya va Border-radius
+  background-color: #ffffff;
+  border-radius: 12px; 
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  overflow: hidden; 
+  width: 100%;
+  max-width: 500px; 
+}
+
+.travelImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

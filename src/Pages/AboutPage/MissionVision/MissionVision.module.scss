@@ -1,0 +1,68 @@
+/* MissionVision.module.scss */
+
+// Ranglar
+$text-color: #374151;         // Asosiy matn rangi (to'q kulrang)
+$border-radius: 8px;          // Kartalar uchun yumaloq burchak
+$icon-margin-right: 10px;     // Icon va sarlavha orasidagi masofa
+
+.missionVisionSection {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #ffffff; // Asosiy oq fon
+}
+
+.cardsContainer {
+  display: flex;
+  gap: 30px; // Kartalar orasidagi masofa
+  max-width: 1000px;
+  width: 100%;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.card {
+  flex: 1; // Har bir karta teng joy egallashi uchun
+  padding: 30px;
+  border-radius: $border-radius; // Rasmdagi kabi burchaklar
+  // Fon ranglari JSX orqali (style prop) beriladi
+  
+  // Rasmdagi kartalar biroz pastga tushirilgan (shadow yo'q, lekin ajratilgan)
+  // Shuning uchun fon rangini o'zidan foydalanish kifoya.
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  
+  // Icon va Title ranglari ikon rangiga mos kelishi kerak (JSX orqali berilgan)
+}
+
+.icon {
+  margin-right: $icon-margin-right;
+  // Icon o'lchami va rangi JSX orqali boshqariladi
+}
+
+.title {
+  font-size: 1.25rem; // Taxminan 20px
+  font-weight: 600;
+  color: $text-color; // Asosiy matn rangi
+  
+  // Ikon rangiga mos kelishi uchun stilni kuchaytirish
+  .card:nth-child(1) & {
+    color: #2563EB; // Mission uchun ko'k rang
+  }
+  .card:nth-child(2) & {
+    color: #b45309; // Vision uchun to'q sariq rang
+  }
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: $text-color;
+}
