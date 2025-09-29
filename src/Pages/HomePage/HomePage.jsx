@@ -16,7 +16,7 @@ export default function HomePage() {
         {/* Hero Section */}
         <section
           className={s.hero}
-          style={{ backgroundImage: `url(${images.HomeBanner})` }}
+          style={{ backgroundImage: `url(${images.HomeBanner1})` }}
         >
           <div className={s.overlay}></div>
           <div className={s.content}>

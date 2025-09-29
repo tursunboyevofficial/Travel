@@ -1,0 +1,389 @@
+{
+  "coreValues": {
+    "heading": "Was uns antreibt",
+    "subheading": "Unsere Grundwerte leiten jede Entscheidung, die wir treffen, und jedes Erlebnis, das wir schaffen.",
+    "heritage": {
+      "title": "Leidenschaft für das Erbe",
+      "text": "Wir haben eine tiefe Leidenschaft dafür, das reiche kulturelle Erbe Zentralasiens zu bewahren und mit Besuchern aus aller Welt zu teilen."
+    },
+    "service": {
+      "title": "Personalisierter Service",
+      "text": "Jeder Reisende ist einzigartig. Wir passen unsere Dienstleistungen an Ihre Interessen an und sorgen so für ein authentisches und unvergessliches Erlebnis."
+    },
+    "expertise": {
+      "title": "Lokale Expertise",
+      "text": "Unser Team besteht aus erfahrenen lokalen Reiseführern, die die versteckten Juwelen und Geschichten hinter jedem Denkmal und jeder Tradition kennen."
+    },
+    "sustainability": {
+      "title": "Nachhaltiger Tourismus",
+      "text": "Wir fördern verantwortungsvolles Reisen, das den lokalen Gemeinschaften zugutekommt und gleichzeitig historische Stätten für zukünftige Generationen bewahrt."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Unsere Reisepakete",
+      "tagline": "Sorgfältig ausgearbeitete Reiserouten, die die besten historischen Schätze und kulturellen Erlebnisse Usbekistans präsentieren."
+    }
+  },
+  "cta": {
+    "title": "Bereit, Zentralasien zu entdecken?",
+    "description": "Lassen Sie uns unsere Leidenschaft für diese unglaubliche Region mit Ihnen teilen. Kontaktieren Sie SamanidTravel noch heute und beginnen Sie mit der Planung Ihrer Reise durch das Herz der Seidenstraße.",
+    "call1": "Anrufen:",
+    "call2": "Anrufen:"
+  },
+  "culture": {
+    "title": "Kulturen durch Reisen verbinden",
+    "paragraph1": "SamanidTravel wurde mit einer einfachen, aber kraftvollen Vision gegründet: die unglaubliche Schönheit und das reiche Erbe Zentralasiens mit Reisenden aus aller Welt zu teilen. Mit Sitz in Buchara, einer der historischsten Städte entlang der antiken Seidenstraße, sind wir tief in der Kultur und den Traditionen der Region verwurzelt.",
+    "paragraph2": "Unser Name ehrt die Samaniden-Dynastie, die im 9. und 10. Jahrhundert eine entscheidende Rolle bei der kulturellen und architektonischen Entwicklung Zentralasiens spielte. So wie die Samaniden Förderer von Kunst, Kultur und Bildung waren, streben wir danach, Kulturbotschafter zu sein und internationale Besucher mit authentischen lokalen Erfahrungen zu verbinden.",
+    "paragraph3": "Jede von uns organisierte Tour ist so konzipiert, dass sie Ihnen nicht nur die prächtigen Monumente und atemberaubenden Landschaften zeigt, sondern Ihnen auch hilft, die Geschichten, Traditionen und Menschen zu verstehen, die Zentralasien so besonders machen.",
+    "imageAlt": "Historische zentralasiatische Architektur, möglicherweise in Buchara"
+  },
+  "numbers": {
+    "title": "Unsere Reise in Zahlen",
+    "subtitle": "Vertrauen aufbauen und Erinnerungen schaffen, eine Reise nach der anderen",
+    "travelers": "Glückliche Reisende",
+    "packages": "Reisepakete",
+    "experience": "Jahre Erfahrung",
+    "destinations": "Reiseziele"
+  },
+  "whyCentralAsia": {
+    "title": "Warum Zentralasien?",
+    "description": "Zentralasien und insbesondere Usbekistan stellt eine der faszinierendsten Kreuzungen der Zivilisationen der Welt dar. Seit über 2.000 Jahren ist diese Region das Herz der Seidenstraße, wo der Osten auf den Westen traf und wo einige der größten architektonischen und kulturellen Errungenschaften der Menschheit stattfanden.",
+    "point1": "UNESCO-Weltkulturerbestätten mit atemberaubender islamischer Architektur",
+    "point2": "Reiche Traditionen des Handwerks, von der Seidenweberei bis zur Keramik",
+    "point3": "Warme Gastfreundschaft und faszinierende kulturelle Vielfalt",
+    "point4": "Authentische Erlebnisse fernab des Massentourismus",
+    "imageAlt": "Historisches zentralasiatisches Minarett und Architektur"
+  },
+  "about_hero_title": "Unsere Reisepakete",
+  "about_hero_tagline": "Sorgfältig ausgearbeitete Reiserouten, die die besten historischen Schätze und kulturellen Erlebnisse Usbekistans präsentieren.",
+  "cta_title": "Bereit, Zentralasien zu entdecken?",
+  "cta_description": "Lassen Sie uns unsere Leidenschaft für diese unglaubliche Region mit Ihnen teilen. Kontaktieren Sie SamanidTravel noch heute und beginnen Sie mit der Planung Ihrer Reise durch das Herz der Seidenstraße.",
+  "cta_call1": "Anrufen:",
+  "cta_call2": "Anrufen:",
+  "contact": {
+    "hero": {
+      "title": "Unsere Reisepakete",
+      "tagline": "Sorgfältig ausgearbeitete Reiserouten, die die besten historischen Schätze und kulturellen Erlebnisse Usbekistans präsentieren."
+    }
+  },
+  "contactInfo": {
+    "heading": "Nehmen Sie Kontakt auf",
+    "office": {
+      "title": "Unser Büro",
+      "address1": "Mustaqillik 56/1",
+      "address2": "Bukhara, Usbekistan",
+      "note": "Im historischen Herzen von Buchara, in der Nähe der antiken Monumente gelegen."
+    },
+    "phone": {
+      "title": "Telefonnummern",
+      "main": "Hauptkontakt",
+      "alt": "Alternativer Kontakt"
+    },
+    "email": {
+      "title": "E-Mail-Adressen",
+      "general": "Allgemeine Anfragen",
+      "booking": "Tourbuchungen"
+    },
+    "hours": {
+      "title": "Geschäftszeiten",
+      "weekdays": "Montag - Freitag: 9:00 - 18:00 Uhr",
+      "saturday": "Samstag: 10:00 - 16:00 Uhr",
+      "sunday": "Sonntag: Nach Vereinbarung",
+      "note": "Notfall-Support ist während der Touren 24/7 verfügbar"
+    },
+    "whatsapp": {
+      "note": "Für schnelle Anfragen und Echtzeit-Kommunikation",
+      "button": "Auf WhatsApp chatten"
+    }
+  },
+  "contactForm": {
+    "title": "Planen Sie Ihre Reise",
+    "subtitle": "Teilen Sie uns Ihre Reisepräferenzen mit, und wir erstellen eine maßgeschneiderte Reiseroute für Sie.",
+    "fullName": "Vollständiger Name *",
+    "fullNamePlaceholder": "Ihr vollständiger Name",
+    "email": "E-Mail-Adresse *",
+    "emailPlaceholder": "ihre@email.com",
+    "phone": "Telefonnummer",
+    "phonePlaceholder": "Ihre Telefonnummer",
+    "package": "Interessiertes Reisepaket",
+    "packagePlaceholder": "Wählen Sie ein Reisepaket aus",
+    "packageOptions": {
+      "silkRoad": "Klassische Seidenstraßen-Tour",
+      "uzbekistan": "Usbekistan Spezial",
+      "tailorMade": "Maßgeschneiderte Reise"
+    },
+    "message": "Ihre Nachricht *",
+    "messagePlaceholder": "Erzählen Sie uns von Ihren Reisedaten, der Gruppengröße, besonderen Interessen oder Fragen, die Sie haben...",
+    "sendButton": "Anfrage senden",
+    "responseTime": "Antwortzeit: Wir antworten in der Regel innerhalb von 24 Stunden auf Anfragen. Für dringende Anliegen rufen Sie uns bitte direkt an.",
+    "alert": "Formular abgeschickt! (Dies ist eine Platzhalterfunktion)"
+  },
+  "faq": {
+    "heading": "Häufig gestellte Fragen",
+    "subtitle": "Häufige Fragen zum Reisen nach Zentralasien mit SamanidTravel",
+    "q1": "Wann ist die beste Reisezeit für Usbekistan?",
+    "a1": "Die beste Reisezeit für Usbekistan ist während des Frühlings (März–Mai) und des Herbstes (September–November), wenn das Wetter mild und perfekt für Besichtigungen ist. Der Sommer kann sehr heiß sein, während der Winter kalt ist, aber sich immer noch für Kulturtouren eignet.",
+    "q2": "Benötige ich ein Visum für die Einreise nach Usbekistan?",
+    "a2": "Die Visabestimmungen variieren je nach Nationalität. Viele Länder haben mittlerweile visumfreien Zugang oder E-Visum-Zugang zu Usbekistan. Wir können Ihnen detaillierte Visainformationen und Unterstützung basierend auf Ihrer Staatsbürgerschaft anbieten.",
+    "q3": "Sind Ihre Touren für Alleinreisende geeignet?",
+    "a3": "Absolut! Wir heißen Alleinreisende willkommen und können sowohl Gruppenreisen als auch private Einzeltouren arrangieren. Alleinreisende nehmen oft an unseren Kleingruppenreisen teil, um Gleichgesinnte zu treffen.",
+    "q4": "Welche Sprachen sprechen Ihre Reiseführer?",
+    "a4": "Unsere professionellen Reiseführer sprechen fließend Englisch, Russisch und Usbekisch. Auf Anfrage können wir auch Reiseführer vermitteln, die Deutsch, Französisch, Spanisch, Italienisch und andere Sprachen sprechen."
+  },
+  "payment": {
+    "header": {
+      "title": "Sichere Zahlungsoptionen",
+      "subtitle": "Wir akzeptieren mehrere Währungen und Zahlungsmethoden für Ihren Komfort"
+    },
+    "howItWorks": {
+      "title": "So funktioniert es",
+      "step1": {
+        "title": "Wählen Sie Ihre Tour",
+        "desc": "Stöbern Sie in unseren Paketen und wählen Sie Ihr perfektes Zentralasien-Abenteuer."
+      },
+      "step2": {
+        "title": "Individuelles Angebot erhalten",
+        "desc": "Wir erstellen eine personalisierte Reiseroute und Preisgestaltung nur für Sie."
+      },
+      "step3": {
+        "title": "Sichere Zahlung",
+        "desc": "Bezahlen Sie sicher mit Ihrer bevorzugten Methode und Währung."
+      },
+      "step4": {
+        "title": "Genießen Sie Ihre Reise",
+        "desc": "Entspannen Sie sich und lassen Sie uns alles für ein unvergessliches Erlebnis erledigen."
+      }
+    },
+    "currencies": {
+      "title": "Akzeptierte Währungen",
+      "popular": "Beliebt",
+      "usd": "US-Dollar",
+      "eur": "Euro",
+      "uzs": "Usbekischer Som"
+    },
+    "methods": {
+      "title": "Zahlungsmethoden",
+      "card": {
+        "title": "Kredit-/Debitkarten",
+        "detail1": "Sichere Zahlungen mit gängigen Kreditkarten",
+        "detail2": "Sofortige Bestätigung",
+        "detail3": "Sichere 3D-Verifizierung",
+        "detail4": "Weltweite Akzeptanz"
+      },
+      "bank": {
+        "title": "Banküberweisung",
+        "detail1": "Direkte Banküberweisungen und Überweisungen",
+        "detail2": "Direkte Banküberweisung",
+        "detail3": "Niedrigere Gebühren",
+        "detail4": "Sichere Abwicklung"
+      },
+      "paypal": {
+        "title": "PayPal",
+        "detail1": "Schnelle und sichere PayPal-Zahlungen",
+        "detail2": "Käuferschutz",
+        "detail3": "Schneller Checkout",
+        "detail4": "Globale Abdeckung"
+      }
+    },
+    "security": {
+      "title": "Sicherheit auf Bankenniveau",
+      "item1": "Alle Zahlungen werden über sichere, verschlüsselte Verbindungen abgewickelt",
+      "item2": "SSL/TLS-Verschlüsselung",
+      "item3": "PCI DSS-konform",
+      "item4": "Betrugsprävention"
+    },
+    "terms": {
+      "title": "Flexible Zahlungsbedingungen",
+      "item1": "Zahlen Sie in Raten oder den vollen Betrag – Sie haben die Wahl",
+      "item2": "30 % Anzahlung zur Bestätigung der Buchung",
+      "item3": "Restbetrag vor der Tour",
+      "item4": "Volle Rückerstattung bei Stornierungen*"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Abenteuer zu buchen?",
+      "subtitle": "Holen Sie sich ein personalisiertes Angebot für Ihre Traumreise nach Zentralasien. Unsere Reiseexperten erstellen die perfekte Reiseroute nur für Sie.",
+      "button1": "Kostenloses Angebot erhalten",
+      "button2": "Kontaktieren Sie uns",
+      "disclaimer": "*Es gelten die Allgemeinen Geschäftsbedingungen. Kontaktieren Sie uns für die vollständigen Stornierungsrichtlinien."
+    }
+  },
+  "adventureBanner": {
+    "title": "Bereit für Ihr Zentralasien-Abenteuer?",
+    "description": "Lassen Sie uns eine unvergessliche Reise entlang der alten Seidenstraße für Sie zusammenstellen. Kontaktieren Sie unser Team noch heute, um mit der Planung Ihrer Traumtour nach Usbekistan zu beginnen.",
+    "buttonPrimary": "Kontakt aufnehmen",
+    "buttonWhatsapp": "WhatsApp uns"
+  },
+  "featuredTours": {
+    "heading": "Ausgewählte Reisepakete",
+    "tagline": "Sorgfältig ausgearbeitete Reiserouten, die die besten historischen Schätze und kulturellen Erlebnisse Usbekistans präsentieren.",
+    "learnMore": "Mehr erfahren",
+    "requestQuote": "Angebot anfordern",
+    "highlightsLabel": "Höhepunkte:",
+    "tour1": {
+      "title": "Klassisches Usbekistan: Goldenes Dreieck",
+      "duration": "7 Tage",
+      "locations": "Taschkent - Samarkand - Buchara",
+      "description": "Entdecken Sie die goldenen Städte Usbekistans auf dieser klassischen Reise durch Taschkent, Samarkand und Buchara. Erleben Sie die architektonischen Wunder und die reiche Geschichte der Seidenstraße.",
+      "highlights": [
+        "Registan-Platz",
+        "Gur-Emir-Mausoleum",
+        "Ark-Festung",
+        "Poi Kalyan Komplex"
+      ]
+    },
+    "tour2": {
+      "title": "Antike Städte der Seidenstraße",
+      "duration": "10 Tage",
+      "locations": "Taschkent - Samarkand - Buchara - Chiwa",
+      "description": "Umfassende Erkundung der antiken Seidenstraßenstädte, einschließlich der UNESCO-Weltkulturerbestätten Samarkand, Buchara und Chiwa.",
+      "highlights": [
+        "Itchan Kala",
+        "Shahi-i Zinda",
+        "Lyab-i Hauz",
+        "Kalta Minor Minarett"
+      ]
+    }
+  },
+  "testimonials": {
+    "heading": "Was unsere Reisenden sagen",
+    "subtitle": "Echte Erfahrungen von echten Reisenden",
+    "1": {
+      "quote": "Eine absolut magische Reise durch Usbekistan! Die Führer waren unglaublich sachkundig und die historischen Stätten waren atemberaubend.",
+      "author": "Sarah Johnson",
+      "country": "Vereinigtes Königreich",
+      "tour": "Tour Goldenes Dreieck"
+    },
+    "2": {
+      "quote": "Perfekte Organisation und authentische Erlebnisse. Die Städte der Seidenstraße haben alle meine Erwartungen übertroffen. Sehr empfehlenswert!",
+      "author": "Hans Müller",
+      "country": "Deutschland",
+      "tour": "Antike Städte Tour"
+    },
+    "3": {
+      "quote": "Das kulturelle Eintauchen war unglaublich. Von traditionellem Handwerk bis zur lokalen Küche war jeder Moment unvergesslich.",
+      "author": "Marie Dubois",
+      "country": "Frankreich",
+      "tour": "Fergana-Tal Tour"
+    }
+  },
+  "whyChoose": {
+    "heading": "Warum SamanidTravel wählen",
+    "subheading": "Es ist uns eine Leidenschaft, die Schönheit und das Erbe Zentralasiens mit Reisenden aus aller Welt zu teilen.",
+    "feature1": {
+      "title": "Lokale Expertenführer",
+      "text": "Professionelle Guides mit tiefem Wissen über die Geschichte und Kultur Usbekistans."
+    },
+    "feature2": {
+      "title": "Authentische Erlebnisse",
+      "text": "Möglichkeiten, vollständig in lokale Bräuche und Traditionen einzutauchen."
+    },
+    "feature3": {
+      "title": "Zentralasien-Spezialisten",
+      "text": "Dienstleistungen, die sich ausschließlich auf Usbekistan und die zentralasiatische Region konzentrieren."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Entdecken Sie die Welt mit Travel Uz",
+      "subtitle": "Finden Sie aufregende Reisen, erschwingliche Tickets und erstklassige Dienstleistungen – alles über uns.",
+      "button": "Jetzt starten"
+    }
+  },
+  "tourCard": {
+    "viewDetails": "Details anzeigen",
+    "highlights": "Höhepunkte",
+    "viewLessHighlights": "Weniger Höhepunkte anzeigen",
+    "moreHighlights": "mehr Höhepunkte",
+    "requestQuote": "Angebot anfordern",
+    "moreDetails": "Mehr Details",
+    "days": "Tage",
+    "nights": "Nächte",
+    "destinations": "Reiseziele",
+    "alertQuote": "Anfrage gesendet.",
+    "alertDetails": "zur Detailseite navigiert.",
+    "alertView": "Bildansicht angeklickt.",
+    "alertDestination": "Reiseziel ausgewählt"
+  },
+  "tours": {
+    "title": "Unsere Reisepakete",
+    "tagline": "Sorgfältig ausgearbeitete Reiserouten, die die besten historischen Schätze und kulturellen Erlebnisse Usbekistans präsentieren."
+  },
+  "footer": {
+    "description": "Fachmännisch ausgearbeitete Reisen durch Zentralasien. Entdecken Sie die Städte der Seidenstraße, einschließlich der antiken Architektur von Samarkand und der charmanten Straßen von Buchara.",
+    "address": "Mustaqillik 54/1, Bukhara, Usbekistan",
+    "phone": "+998 91 400 44 59 / +998 90 715 51 98",
+    "email1": "beenur@samanidtravel.com",
+    "email2": "anwaratsaxon1@gmail.com",
+    "hours": "Montag - Freitag: 9:00 - 18:00 Uhr",
+    "quickLinks": {
+      "title": "Schnell-Links",
+      "home": "Startseite",
+      "tours": "Touren",
+      "about": "Über uns",
+      "contact": "Kontakt"
+    },
+    "destinations": {
+      "title": "Reiseziele",
+      "samarkand": "Samarkand",
+      "bukhara": "Buchara",
+      "khiva": "Chiwa",
+      "tashkent": "Taschkent",
+      "fergana": "Fergana-Tal"
+    },
+    "followUs": {
+      "title": "Folgen Sie uns",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "copyright": "© 2024 SamanidTravel. Alle Rechte vorbehalten. Entdecken Sie die Wunder Zentralasiens."
+  },
+  "header_tagline": "Entdecken Sie Zentralasien mit Experten",
+  "nav_home": "Startseite",
+  "nav_tours": "Touren",
+  "nav_about": "Über uns",
+  "nav_contact": "Kontakt",
+    "detailedTours": {
+      "viewDetails": "Details anzeigen",
+      "requestQuote": "Angebot anfordern",
+      "moreDetails": "Mehr erfahren",
+      "viewLess": "Weniger Highlights anzeigen",
+      "moreHighlights": "weitere Highlights",
+      "highlightsLabel": "Highlights:",
+      "destinations": "Reiseziele",
+      "1": {
+        "title": "Klassisches Usbekistan: Goldenes Dreieck",
+        "durationTag": "7 Tage / 6 Nächte",
+        "seasonTag": "Ganzjährig",
+        "people": "2–16 Personen",
+        "season": "Ganzjährig",
+        "description": "Erleben Sie die ikonischsten Städte Usbekistans auf dieser umfassenden Reise entlang der Seidenstraße. Besuchen Sie prächtige Bauwerke, lebendige Basare und tauchen Sie ein in die zentralasiatische Kultur.",
+        "locations": ["Taschkent", "Samarkand", "Buchara"],
+        "highlights": [
+          "Registan-Platz in Samarkand – UNESCO-Weltkulturerbe",
+          "Bibi-Khanym-Moschee – eine der größten Moscheen der islamischen Welt",
+          "Shah-i-Zinda-Nekropole – Allee der Mausoleen",
+          "Gur-Emir-Mausoleum",
+          "Chor-Minor-Madrasa"
+        ]
+      },
+      "2": {
+        "title": "Antike Städte der Seidenstraße",
+        "durationTag": "10 Tage / 9 Nächte",
+        "seasonTag": "März–November",
+        "people": "4–12 Personen",
+        "season": "März–November",
+        "description": "Das ultimative Seidenstraßenerlebnis mit allen wichtigen historischen Städten Usbekistans. Eine Reise durch 2.500 Jahre Geschichte – von Khiva über Buchara bis Samarkand.",
+        "locations": ["Taschkent", "Samarkand", "Buchara", "Khiva"],
+        "highlights": [
+          "Ichon-Qala in Khiva – Freilichtmuseum",
+          "Kunya-Ark – alte Festung und Residenz der Khane von Khiva",
+          "Tash-Hauli-Palast – Meisterwerk zentralasiatischer Architektur",
+          "Lyab-i-Hauz-Komplex",
+          "Kalta-Minor-Minarett"
+        ]
+      }
+    }
+  
+  
+}

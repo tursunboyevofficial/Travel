@@ -354,78 +354,84 @@
                                 "title": "Our Tour Packages",
                                 "tagline": "Carefully crafted itineraries showcasing the best of Uzbekistan's historical treasures and cultural experiences"
                               },
-                                "footer": {
-                                  "description": "Markaziy Osiyoda mohirlik bilan tuzilgan sayohatlar. Ipak yo‘li shaharlari, jumladan, qadimiy Samarqand me’morchiligi va Buxoro ko‘chalari.",
-                                  "address": "Mustaqillik 54/1, Buxoro, O‘zbekiston",
-                                  "phone": "+998 91 400 44 59 / +998 90 715 51 98",
-                                  "email1": "beenur@samanidtravel.com",
-                                  "email2": "anwaratsaxon1@gmail.com",
-                                  "hours": "Dushanba - Juma: 9:00 - 18:00",
-                                  "quickLinks": {
-                                    "title": "Tezkor havolalar",
-                                    "home": "Bosh sahifa",
-                                    "tours": "Turlar",
-                                    "about": "Biz haqimizda",
-                                    "contact": "Aloqa"
-                                  },
-                                  "destinations": {
-                                    "title": "Yo‘nalishlar",
-                                    "samarkand": "Samarqand",
-                                    "bukhara": "Buxoro",
-                                    "khiva": "Xiva",
-                                    "tashkent": "Toshkent",
-                                    "fergana": "Farg‘ona vodiysi"
-                                  },
-                                  "followUs": {
-                                    "title": "Bizni kuzating",
-                                    "instagram": "Instagram",
-                                    "facebook": "Facebook"
-                                  },
-                                  "copyright": "© 2024 SamanidTravel. Barcha huquqlar himoyalangan. Markaziy Osiyoning mo‘jizalarini kashf eting"
+                              "footer": {
+                                "description": "Expertly crafted journeys across Central Asia. Explore the Silk Road cities, including the ancient architecture of Samarkand and the charming streets of Bukhara.",
+                                "address": "Mustaqillik 54/1, Bukhara, Uzbekistan",
+                                "phone": "+998 91 400 44 59 / +998 90 715 51 98",
+                                "email1": "beenur@samanidtravel.com",
+                                "email2": "anwaratsaxon1@gmail.com",
+                                "hours": "Monday - Friday: 9:00 AM - 6:00 PM",
+                                "quickLinks": {
+                                  "title": "Quick Links",
+                                  "home": "Home",
+                                  "tours": "Tours",
+                                  "about": "About Us",
+                                  "contact": "Contact"
                                 },
+                                "destinations": {
+                                  "title": "Destinations",
+                                  "samarkand": "Samarkand",
+                                  "bukhara": "Bukhara",
+                                  "khiva": "Khiva",
+                                  "tashkent": "Tashkent",
+                                  "fergana": "Fergana Valley"
+                                },
+                                "followUs": {
+                                  "title": "Follow Us",
+                                  "instagram": "Instagram",
+                                  "facebook": "Facebook"
+                                },
+                                "copyright": "© 2024 SamanidTravel. All rights reserved. Discover the wonders of Central Asia."
+                              },
                               
                               
-                              
-                              
-                            
-                            
-                          
-
-
-
-
-
-
                             "header_tagline": "Discover Central Asia with Experts",
                             "nav_home": "Home",
                             "nav_tours": "Tours",
                             "nav_about": "About Us",
-                            "nav_contact": "Contact"
-                          
-                          
-                        
-                        
-                      
-                      
-                      
-                      
-                    
-                    
-                  
-                  
-                
-                
-              
-              
-              
-              
-            
-            
-        
-    
-    
-   
-  
-  
-  
+                            "nav_contact": "Contact",
+                            
+                              "detailedTours": {
+                                "viewDetails": "View Details",
+                                "requestQuote": "Request Quote",
+                                "moreDetails": "More Details",
+                                "viewLess": "View less highlights",
+                                "moreHighlights": "more highlights",
+                                "highlightsLabel": "Highlights:",
+                                "destinations": "Destinations",
+                                "1": {
+                                  "title": "Classic Uzbekistan: Golden Triangle",
+                                  "durationTag": "7 Days / 6 Nights",
+                                  "seasonTag": "All Year",
+                                  "people": "2–16 people",
+                                  "season": "All Year",
+                                  "description": "Explore the most iconic cities of Uzbekistan in this comprehensive journey through the heart of the Silk Road. Visit magnificent architectural monuments, bustling bazaars, and experience authentic Central Asian culture.",
+                                  "locations": ["Tashkent", "Samarkand", "Bukhara"],
+                                  "highlights": [
+                                    "Registan Square in Samarkand - UNESCO World Heritage Site",
+                                    "Bibi-Khanym Mosque - One of the largest mosques in the Islamic world",
+                                    "Shah-i-Zinda Necropolis - Avenue of mausoleums",
+                                    "Gur-Emir Mausoleum",
+                                    "Chor Minor Madrasah"
+                                  ]
+                                },
+                                "2": {
+                                  "title": "Ancient Cities of the Silk Road",
+                                  "durationTag": "10 Days / 9 Nights",
+                                  "seasonTag": "Mar–Nov",
+                                  "people": "4–12 people",
+                                  "season": "Mar–Nov",
+                                  "description": "The ultimate Silk Road experience covering all major historical cities of Uzbekistan. Journey through 2,500 years of history from ancient Khiva to medieval Bukhara and magnificent Samarkand.",
+                                  "locations": ["Tashkent", "Samarkand", "Bukhara", "Khiva"],
+                                  "highlights": [
+                                    "Khiva's Ichan Qala - Open-air museum city",
+                                    "Kunya Ark - Ancient fortress and former residence of Khiva Khans",
+                                    "Tash Hauli Palace - Masterpiece of Central Asian architecture",
+                                    "Lyab-i Hauz Complex",
+                                    "Kalta Minor Minaret"
+                                  ]
+                                }
+                              }
+                            
+                            
 }

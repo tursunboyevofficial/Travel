@@ -1,0 +1,381 @@
+{
+  "coreValues": {
+    "heading": "我们的驱动力",
+    "subheading": "我们的核心价值指导我们做出的每一个决定，创造的每一次体验。",
+    "heritage": {
+      "title": "文化遗产的热情",
+      "text": "我们对保护和分享中亚丰富的文化遗产，并将其介绍给世界各地的游客，怀有深切的热情。"
+    },
+    "service": {
+      "title": "个性化服务",
+      "text": "每位旅客都是独一无二的。我们量身定制服务以匹配您的兴趣，确保一次真实难忘的体验。"
+    },
+    "expertise": {
+      "title": "本地专业知识",
+      "text": "我们的团队由经验丰富的本地导游组成，他们了解每个古迹和传统背后的隐藏瑰宝与故事。"
+    },
+    "sustainability": {
+      "title": "可持续旅游",
+      "text": "我们提倡负责任的旅行，以造福当地社区，同时为子孙后代保护历史遗址。"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "我们的旅游套餐",
+      "tagline": "精心设计的行程，展示乌兹别克斯坦最棒的历史瑰宝和文化体验"
+    }
+  },
+  "cta": {
+    "title": "准备好探索中亚了吗？",
+    "description": "让我们与您分享对这片神奇区域的热情。立即联系 SamanidTravel，开始规划您的丝绸之路核心之旅。",
+    "call1": "致电：",
+    "call2": "致电："
+  },
+  "culture": {
+    "title": "通过旅行连接文化",
+    "paragraph1": "SamanidTravel 创立时怀有一个简单而强大的愿景：与来自世界各地的旅行者分享中亚令人难以置信的美丽和丰富遗产。我们扎根于布哈拉——古丝绸之路沿线最具历史意义的城市之一，与该地区的文化和传统有着深厚的联系。",
+    "paragraph2": "我们的名字旨在纪念萨曼王朝（Samanid dynasty），该王朝在九世纪和十世纪中亚的文化和建筑发展中发挥了至关重要的作用。正如萨曼王朝是艺术、文化和学习的赞助人一样，我们也努力成为文化大使，将国际游客与真实的本地体验连接起来。",
+    "paragraph3": "我们组织的每一次旅行，目的不仅仅是向您展示宏伟的古迹和令人叹为观止的风景，更是为了帮助您了解使中亚真正与众不同的故事、传统和人民。",
+    "imageAlt": "历史悠久的中亚建筑，可能在布哈拉"
+  },
+  "numbers": {
+    "title": "我们的数字之旅",
+    "subtitle": "建立信任，创造回忆，始于每一次旅程",
+    "travelers": "满意旅客",
+    "packages": "旅游套餐",
+    "experience": "年经验",
+    "destinations": "目的地"
+  },
+  "whyCentralAsia": {
+    "title": "为什么选择中亚？",
+    "description": "中亚，尤其是乌兹别克斯坦，代表着世界上最迷人的文明十字路口之一。两千多年来，该地区一直是丝绸之路的中心，是东西方交汇之地，也是人类最伟大的建筑和文化成就诞生的地方。",
+    "point1": "拥有令人惊叹的伊斯兰建筑的联合国教科文组织世界遗产地",
+    "point2": "从丝绸编织到陶瓷的丰富工艺传统",
+    "point3": "热情好客和迷人的文化多样性",
+    "point4": "远离大众旅游的真实体验",
+    "imageAlt": "历史悠久的中亚尖塔和建筑"
+  },
+  "contact": {
+    "hero": {
+      "title": "我们的旅游套餐",
+      "tagline": "精心设计的行程，展示乌兹别克斯坦最棒的历史瑰宝和文化体验"
+    }
+  },
+  "contactInfo": {
+    "heading": "联系我们",
+    "office": {
+      "title": "我们的办公室",
+      "address1": "Mustaqillik 56/1",
+      "address2": "布哈拉, 乌兹别克斯坦",
+      "note": "位于布哈拉的历史中心，靠近古代古迹。"
+    },
+    "phone": {
+      "title": "电话号码",
+      "main": "主要联系方式",
+      "alt": "备用联系方式"
+    },
+    "email": {
+      "title": "电子邮件地址",
+      "general": "一般查询",
+      "booking": "旅游预订"
+    },
+    "hours": {
+      "title": "营业时间",
+      "weekdays": "周一至周五：上午 9:00 - 下午 6:00",
+      "saturday": "周六：上午 10:00 - 下午 4:00",
+      "sunday": "周日：预约制",
+      "note": "旅途期间提供 24/7 紧急支持"
+    },
+    "whatsapp": {
+      "note": "用于快速查询和实时沟通",
+      "button": "在 WhatsApp 上聊天"
+    }
+  },
+  "contactForm": {
+    "title": "规划您的旅程",
+    "subtitle": "告诉我们您的旅行偏好，我们将为您量身定制行程。",
+    "fullName": "全名 *",
+    "fullNamePlaceholder": "您的全名",
+    "email": "电子邮箱 *",
+    "emailPlaceholder": "your@email.com",
+    "phone": "电话号码",
+    "phonePlaceholder": "您的电话号码",
+    "package": "感兴趣的旅游套餐",
+    "packagePlaceholder": "选择一个旅游套餐",
+    "packageOptions": {
+      "silkRoad": "经典丝绸之路之旅",
+      "uzbekistan": "乌兹别克斯坦特别之旅",
+      "tailorMade": "量身定制旅程"
+    },
+    "message": "您的留言 *",
+    "messagePlaceholder": "请告诉我们您的旅行日期、团体人数、特殊兴趣或您有的任何问题...",
+    "sendButton": "发送查询",
+    "responseTime": "回复时间：我们通常会在 24 小时内回复您的查询。对于紧急请求，请直接致电我们。",
+    "alert": "表单已提交！(这是一个占位符功能)"
+  },
+  "faq": {
+    "heading": "常见问题",
+    "subtitle": "关于与 SamanidTravel 一起前往中亚旅行的常见问题",
+    "q1": "游览乌兹别克斯坦的最佳时间是什么时候？",
+    "a1": "游览乌兹别克斯坦的最佳时间是春季（三月至五月）和秋季（九月至十一月），此时天气温和，非常适合观光。夏季可能非常炎热，而冬季寒冷但仍适合文化旅游。",
+    "q2": "我访问乌兹别克斯坦需要签证吗？",
+    "a2": "签证要求因国籍而异。现在许多国家都可享受免签或电子签访问乌兹别克斯坦。我们可以根据您的国籍提供详细的签证信息和协助。",
+    "q3": "您的旅行适合独自旅行者吗？",
+    "a3": "当然！我们欢迎独自旅行者，可以安排团体旅游和私人个人旅游。独自旅行者通常会加入我们的小团，以结识志同道合的人。",
+    "q4": "您的导游会讲哪些语言？",
+    "a4": "我们的专业导游流利掌握英语、俄语和乌兹别克语。我们还可以应要求安排会讲德语、法语、西班牙语、意大利语和其他语言的导游。"
+  },
+  "payment": {
+    "header": {
+      "title": "安全支付选项",
+      "subtitle": "我们接受多种货币和支付方式，为您提供便利"
+    },
+    "howItWorks": {
+      "title": "工作原理",
+      "step1": {
+        "title": "选择您的旅行",
+        "desc": "浏览我们的套餐，选择您完美的中亚探险之旅。"
+      },
+      "step2": {
+        "title": "获取定制报价",
+        "desc": "我们将为您量身定制行程和价格。"
+      },
+      "step3": {
+        "title": "安全支付",
+        "desc": "使用您首选的付款方式和货币安全支付。"
+      },
+      "step4": {
+        "title": "享受您的旅程",
+        "desc": "放松身心，让我们为您处理一切，享受一次难忘的体验。"
+      }
+    },
+    "currencies": {
+      "title": "接受的货币",
+      "popular": "流行",
+      "usd": "美元",
+      "eur": "欧元",
+      "uzs": "乌兹别克苏姆"
+    },
+    "methods": {
+      "title": "支付方式",
+      "card": {
+        "title": "信用卡/借记卡",
+        "detail1": "使用主要信用卡安全支付",
+        "detail2": "即时确认",
+        "detail3": "安全 3D 验证",
+        "detail4": "全球接受"
+      },
+      "bank": {
+        "title": "银行转账",
+        "detail1": "直接银行转账和电汇付款",
+        "detail2": "直接银行转账",
+        "detail3": "较低费用",
+        "detail4": "安全处理"
+      },
+      "paypal": {
+        "title": "PayPal",
+        "detail1": "快速安全的 PayPal 支付",
+        "detail2": "买家保护",
+        "detail3": "快速结账",
+        "detail4": "全球覆盖"
+      }
+    },
+    "security": {
+      "title": "银行级安全",
+      "item1": "所有付款均通过安全、加密的连接进行处理",
+      "item2": "SSL/TLS 加密",
+      "item3": "符合 PCI DSS 标准",
+      "item4": "欺诈保护"
+    },
+    "terms": {
+      "title": "灵活的付款条款",
+      "item1": "分期付款或全额支付——任您选择",
+      "item2": "30% 押金确认预订",
+      "item3": "旅行前支付剩余款项",
+      "item4": "取消全额退款*"
+    },
+    "cta": {
+      "title": "准备好预订您的探险之旅了吗？",
+      "subtitle": "获取您的梦想中亚之旅的个性化报价。我们的旅行专家将为您量身定制完美的行程。",
+      "button1": "获取免费报价",
+      "button2": "联系我们",
+      "disclaimer": "*适用条款和条件。请联系我们了解完整的取消政策。"
+    }
+  },
+  "adventureBanner": {
+    "title": "准备好迎接您的中亚探险之旅了吗？",
+    "description": "让我们为您打造一次难忘的古丝绸之路之旅。立即联系我们的团队，开始规划您的乌兹别克斯坦梦想之旅。",
+    "buttonPrimary": "联系我们",
+    "buttonWhatsapp": "WhatsApp 联系我们"
+  },
+  "featuredTours": {
+    "heading": "特色旅游套餐",
+    "tagline": "精心设计的行程，展示乌兹别克斯坦最棒的历史瑰宝和文化体验",
+    "learnMore": "了解更多",
+    "requestQuote": "索取报价",
+    "highlightsLabel": "亮点：",
+    "tour1": {
+      "title": "经典乌兹别克斯坦：金色三角",
+      "duration": "7 天",
+      "locations": "塔什干 - 撒马尔罕 - 布哈拉",
+      "description": "在这趟穿越塔什干、撒马尔罕和布哈拉的经典旅程中，探索乌兹别克斯坦的金色城市。体验丝绸之路的建筑奇观和丰富历史。",
+      "highlights": [
+        "雷吉斯坦广场",
+        "古尔·埃米尔陵",
+        "阿克堡",
+        "波伊·卡扬建筑群"
+      ]
+    },
+    "tour2": {
+      "title": "丝绸之路古城",
+      "duration": "10 天",
+      "locations": "塔什干 - 撒马尔罕 - 布哈拉 - 希瓦",
+      "description": "全面探索古丝绸之路城市，包括撒马尔罕、布哈拉和希瓦的联合国教科文组织世界遗产。",
+      "highlights": [
+        "伊钦·卡拉古城",
+        "沙赫·伊·辛达陵",
+        "拉比豪兹建筑群",
+        "卡尔塔·米诺尔宣礼塔"
+      ]
+    }
+  },
+  "testimonials": {
+    "heading": "我们的旅行者怎么说",
+    "subtitle": "来自真实旅行者的真实体验",
+    "1": {
+      "quote": "一次绝对神奇的乌兹别克斯坦之旅！导游知识渊博，历史遗址令人叹为观止。",
+      "author": "Sarah Johnson",
+      "country": "英国",
+      "tour": "金色三角之旅"
+    },
+    "2": {
+      "quote": "完美的组织和真实的体验。丝绸之路城市超出了我所有的期望。强烈推荐！",
+      "author": "Hans Mueller",
+      "country": "德国",
+      "tour": "古城之旅"
+    },
+    "3": {
+      "quote": "文化沉浸令人难以置信。从传统工艺到当地美食，每一个瞬间都令人难忘。",
+      "author": "Marie Dubois",
+      "country": "法国",
+      "tour": "费尔干纳谷之旅"
+    }
+  },
+  "whyChoose": {
+    "heading": "为什么选择",
+    "subheading": "我们热衷于与世界各地的旅行者分享中亚的美丽和遗产。",
+    "feature1": {
+      "title": "本地专业导游",
+      "text": "对乌兹别克斯坦的历史和文化有深入了解的专业导游。"
+    },
+    "feature2": {
+      "title": "真实体验",
+      "text": "有机会完全沉浸在当地习俗和传统中。"
+    },
+    "feature3": {
+      "title": "中亚专家",
+      "text": "专门专注于乌兹别克斯坦和中亚地区的服务。"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "与 Travel Uz 一起探索世界",
+      "subtitle": "通过我们找到令人兴奋的旅程、实惠的机票和优质的服务。",
+      "button": "开始"
+    }
+  },
+  "tourCard": {
+    "viewDetails": "查看详情",
+    "highlights": "亮点",
+    "viewLessHighlights": "查看较少亮点",
+    "moreHighlights": "更多亮点",
+    "requestQuote": "索取报价",
+    "moreDetails": "更多详情",
+    "days": "天",
+    "nights": "晚",
+    "destinations": "目的地",
+    "alertQuote": "请求已发送。",
+    "alertDetails": "已导航到详情页面。",
+    "alertView": "点击了图片视图。",
+    "alertDestination": "目的地已选择"
+  },
+  "tours": {
+    "title": "我们的旅游套餐",
+    "tagline": "精心设计的行程，展示乌兹别克斯坦最棒的历史瑰宝和文化体验"
+  },
+  "footer": {
+    "description": "专业打造的中亚之旅。探索丝绸之路城市，包括撒马尔罕的古老建筑和布哈拉迷人的街道。",
+    "address": "Mustaqillik 54/1, 布哈拉, 乌兹别克斯坦",
+    "phone": "+998 91 400 44 59 / +998 90 715 51 98",
+    "email1": "beenur@samanidtravel.com",
+    "email2": "anwaratsaxon1@gmail.com",
+    "hours": "周一至周五：上午 9:00 - 下午 6:00",
+    "quickLinks": {
+      "title": "快速链接",
+      "home": "首页",
+      "tours": "旅游",
+      "about": "关于我们",
+      "contact": "联系方式"
+    },
+    "destinations": {
+      "title": "目的地",
+      "samarkand": "撒马尔罕",
+      "bukhara": "布哈拉",
+      "khiva": "希瓦",
+      "tashkent": "塔什干",
+      "fergana": "费尔干纳谷"
+    },
+    "followUs": {
+      "title": "关注我们",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "copyright": "© 2024 SamanidTravel. 保留所有权利。探索中亚奇观。"
+  },
+  "header_tagline": "与专家一起探索中亚",
+  "nav_home": "首页",
+  "nav_tours": "旅游",
+  "nav_about": "关于我们",
+  "nav_contact": "联系方式",
+  "detailedTours": {
+    "viewDetails": "查看详情",
+    "requestQuote": "索取报价",
+    "moreDetails": "更多详情",
+    "viewLess": "查看较少亮点",
+    "moreHighlights": "更多亮点",
+    "highlightsLabel": "亮点：",
+    "destinations": "目的地",
+    "1": {
+      "title": "经典乌兹别克斯坦：金色三角",
+      "durationTag": "7 天 / 6 晚",
+      "seasonTag": "全年",
+      "people": "2–16 人",
+      "season": "全年",
+      "description": "在这趟穿越丝绸之路核心的全面旅程中，探索乌兹别克斯坦最具代表性的城市。参观宏伟的建筑古迹、繁华的集市，并体验地道的中亚文化。",
+      "locations": ["塔什干", "撒马尔罕", "布哈拉"],
+      "highlights": [
+        "撒马尔罕雷吉斯坦广场 - 联合国教科文组织世界遗产",
+        "比比哈努姆清真寺 - 伊斯兰世界最大的清真寺之一",
+        "沙赫·伊·辛达陵墓群 - 陵墓大道",
+        "古尔·埃米尔陵",
+        "恰尔·米纳尔经学院"
+      ]
+    },
+    "2": {
+      "title": "丝绸之路古城",
+      "durationTag": "10 天 / 9 晚",
+      "seasonTag": "三月至十一月",
+      "people": "4–12 人",
+      "season": "三月至十一月",
+      "description": "终极丝绸之路体验，涵盖乌兹别克斯坦所有主要历史名城。从古代希瓦到中世纪布哈拉和宏伟的撒马尔罕，穿越 2,500 年的历史。",
+      "locations": ["塔什干", "撒马尔罕", "布哈拉", "希瓦"],
+      "highlights": [
+        "希瓦伊钦·卡拉古城 - 露天博物馆城市",
+        "库尼亚方舟 - 古代堡垒和希瓦汗的故居",
+        "塔什豪利宫 - 中亚建筑的杰作",
+        "拉比豪兹建筑群",
+        "卡尔塔·米诺尔宣礼塔"
+      ]
+    }
+  }
+}

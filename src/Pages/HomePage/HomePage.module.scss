@@ -35,9 +35,13 @@
 }
 
 .hero {
+  
   position: relative;
-  background:  center/cover no-repeat;
-  height: 90vh;
+  background-image: url('/path/to/img.jpg'); // bu yerga kerakli rasm bo'ladi agar SCSS orqali berilsa
+  background-size: cover;         // Rasmni butun maydonga moslashtiradi
+  background-position: center;    // Markazga joylashtiradi
+  background-repeat: no-repeat;   // Takrorlanishini o'chiradi
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,8 +64,9 @@
     padding: 1rem;
 
     h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
+      font-size: 4rem;
+      margin-bottom: 1.4rem;
+      font-weight: 600;
     }
 
     p {
@@ -70,7 +75,6 @@
     }
   }
 }
-
 .services {
   padding: 4rem 2rem;
   background: #f8f9fa;

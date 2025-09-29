@@ -2,162 +2,125 @@ import React, { useState } from 'react';
 import s from './DetailedTourPackages.module.scss';
 import { FaClock, FaUsers, FaCalendarAlt, FaRegStar, FaPlus } from 'react-icons/fa';
 
-// Ma'lumotlar obyekti
 const tourPackages = [
     {
-        id: 1,
-        title: "Classic Uzbekistan: Golden Triangle",
-        days: 7,
-        nights: 6,
-        durationTag: "7 Days / 6 Nights",
-        seasonTag: "All Year",
-        image: "https://i.ibb.co/L8v7f23/registan.jpg", // Haqiqiy rasm URL manzili
-        locations: ["Tashkent", "Samarkand", "Bukhara"],
-        people: "2-16 people",
-        season: "All Year",
-        description: "Explore the most iconic cities of Uzbekistan in this comprehensive journey through the heart of the Silk Road. Visit magnificent architectural monuments, bustling bazaars, and experience authentic Central Asian culture.",
-        highlights: [
-            "Registan Square in Samarkand - UNESCO World Heritage Site",
-            "Bibi-Khanym Mosque - One of the largest mosques in the Islamic world",
-            "Shah-i-Zinda Necropolis - Avenue of mausoleums",
-            "Gur-Emir Mausoleum", 
-            "Chor Minor Madrasah", 
-        ]
+      id: 1,
+      image: "https://i.ibb.co/L8v7f23/registan.jpg",
+      titleKey: "detailedTours.1.title",
+      durationTagKey: "detailedTours.1.durationTag",
+      seasonTagKey: "detailedTours.1.seasonTag",
+      days: 7,
+      nights: 6,
+      peopleKey: "detailedTours.1.people",
+      seasonKey: "detailedTours.1.season",
+      descriptionKey: "detailedTours.1.description",
+      locationsKeys: [
+        "detailedTours.1.locations.0",
+        "detailedTours.1.locations.1",
+        "detailedTours.1.locations.2"
+      ],
+      highlightsKeys: [
+        "detailedTours.1.highlights.0",
+        "detailedTours.1.highlights.1",
+        "detailedTours.1.highlights.2",
+        "detailedTours.1.highlights.3",
+        "detailedTours.1.highlights.4"
+      ]
     },
     {
-        id: 2,
-        title: "Ancient Cities of the Silk Road",
-        days: 10,
-        nights: 9,
-        durationTag: "10 Days / 9 Nights",
-        seasonTag: "Mar-Nov",
-        image: "https://i.ibb.co/3k5fH8h/khiva.jpg", // Haqiqiy rasm URL manzili
-        locations: ["Tashkent", "Samarkand", "Bukhara", "Khiva"],
-        people: "4-12 people",
-        season: "Mar-Nov",
-        description: "The ultimate Silk Road experience covering all major historical cities of Uzbekistan. Journey through 2,500 years of history from ancient Khiva to medieval Bukhara and magnificent Samarkand.",
-        highlights: [
-            "Khiva's Ichan Qala - Open-air museum city",
-            "Kunya Ark - Ancient fortress and former residence of Khiva Khans",
-            "Tash Hauli Palace - Masterpiece of Central Asian architecture",
-            "Lyab-i Hauz Complex", 
-            "Kalta Minor Minaret", 
-        ]
+      id: 2,
+      image: "https://i.ibb.co/3k5fH8h/khiva.jpg",
+      titleKey: "detailedTours.2.title",
+      durationTagKey: "detailedTours.2.durationTag",
+      seasonTagKey: "detailedTours.2.seasonTag",
+      days: 10,
+      nights: 9,
+      peopleKey: "detailedTours.2.people",
+      seasonKey: "detailedTours.2.season",
+      descriptionKey: "detailedTours.2.description",
+      locationsKeys: [
+        "detailedTours.2.locations.0",
+        "detailedTours.2.locations.1",
+        "detailedTours.2.locations.2",
+        "detailedTours.2.locations.3"
+      ],
+      highlightsKeys: [
+        "detailedTours.2.highlights.0",
+        "detailedTours.2.highlights.1",
+        "detailedTours.2.highlights.2",
+        "detailedTours.2.highlights.3",
+        "detailedTours.2.highlights.4"
+      ]
     }
-];
+  ];
+  
+  import { useTranslation } from 'react-i18next';
 
-// Yagona tur paketi kartasi komponenti
-const TourCard = ({ tour }) => {
-    // Highlights funksionalligi
-    const initialHighlights = tour.highlights.slice(0, 3);
-    const hiddenHighlights = tour.highlights.slice(3);
+  const TourCard = ({ tour }) => {
+    const { t } = useTranslation();
+    const initialHighlights = tour.highlightsKeys.slice(0, 3);
+    const hiddenHighlights = tour.highlightsKeys.slice(3);
     const [showAllHighlights, setShowAllHighlights] = useState(false);
-    
-    // Tugmalar funksiyalari (Ishlayotganini ko'rsatish uchun)
-    const handleRequestQuote = () => alert(`"${tour.title}" uchun so'rov yuborildi.`);
-    const handleMoreDetails = () => alert(`"${tour.title}" batafsil ma'lumot sahifasiga o'tildi.`);
-    const handleViewDetails = () => alert(`"${tour.title}" rasmi ustidagi View Details bosildi.`);
-    const handleDestinationClick = (dest) => console.log(`Manzil tanlandi: ${dest}`);
-
-
+  
     return (
-        <div className={s.card}>
-            {/* Rasm va Overlay qismi */}
-            <div className={s.imageWrapper}>
-                <div 
-                    className={s.image} 
-                    style={{ backgroundImage: `url(${tour.image})` }}
-                >
-                    {/* Yuqori chap va o'ng yorliqlar (Dinamik ma'lumot) */}
-                    <span className={s.durationTag}>{tour.durationTag}</span>
-                    <span className={s.seasonTag}>{tour.seasonTag}</span>
-                    
-                    {/* Rasm ustidagi View Details tugmasi */}
-                    <div className={s.overlay} onClick={handleViewDetails}>
-                        <button className={s.viewDetailsBtn}>
-                            View Details
-                        </button>
-                    </div>
-                </div>
+      <div className={s.card}>
+        <div className={s.imageWrapper}>
+          <div className={s.image} style={{ backgroundImage: `url(${tour.image})` }}>
+            <span className={s.durationTag}>{t(tour.durationTagKey)}</span>
+            <span className={s.seasonTag}>{t(tour.seasonTagKey)}</span>
+            <div className={s.overlay}>
+              <button className={s.viewDetailsBtn}>{t('detailedTours.viewDetails')}</button>
             </div>
-
-            {/* Kontent qismi */}
-            <div className={s.content}>
-                <h3 className={s.cardTitle}>{tour.title}</h3>
-                
-                {/* Metadata qismi (Dinamik ma'lumot) */}
-                <div className={s.metadata}>
-                    <div className={s.metaItem}>
-                        <FaClock className={s.metaIcon} /> 
-                        <span>{tour.days} Days / {tour.nights} Nights</span>
-                    </div>
-                    <div className={s.metaItem}>
-                        <FaUsers className={s.metaIcon} /> 
-                        <span>{tour.people}</span>
-                    </div>
-                    <div className={s.metaItem}>
-                        <FaCalendarAlt className={s.metaIcon} /> 
-                        <span>{tour.season}</span>
-                    </div>
-                </div>
-
-                {/* Navigatsiya joylashuvlari (Dinamik Tags) */}
-                <div className={s.destinations}>
-                    <p className={s.navTitle}>nav.destinations:</p>
-                    <div className={s.destinationTags}>
-                        {tour.locations.map(loc => (
-                            <button 
-                                key={loc} 
-                                className={s.destinationTag}
-                                onClick={() => handleDestinationClick(loc)}
-                            >
-                                {loc}
-                            </button>
-                        ))}
-                    </div>
-                </div>
-
-                <p className={s.description}>{tour.description}</p>
-
-                {/* Highlights qismi (Dinamik va ochiluvchan) */}
-                <div className={s.highlightsSection}>
-                    <p className={s.highlightsTitle}>
-                        <FaRegStar className={s.starIcon} /> Highlights:
-                    </p>
-                    <ul className={s.highlightsList}>
-                        {initialHighlights.map((item, index) => (
-                            <li key={index} className={s.highlightItem}>{item}</li>
-                        ))}
-                        
-                        {showAllHighlights && hiddenHighlights.map((item, index) => (
-                            <li key={index + 3} className={s.highlightItem}>{item}</li>
-                        ))}
-                    </ul>
-                    
-                    {hiddenHighlights.length > 0 && (
-                        <button 
-                            className={s.moreHighlightsBtn} 
-                            onClick={() => setShowAllHighlights(v => !v)}
-                        >
-                            <FaPlus className={s.moreIcon} style={{ transform: showAllHighlights ? 'rotate(45deg)' : 'none' }}/> 
-                            {showAllHighlights ? 'View less highlights' : `+ ${hiddenHighlights.length} more highlights`}
-                        </button>
-                    )}
-                </div>
-
-                {/* Tugmalar qismi */}
-                <div className={s.actions}>
-                    <button className={`${s.button} ${s.requestQuote}`} onClick={handleRequestQuote}>
-                        Request Quote
-                    </button>
-                    <button className={`${s.button} ${s.moreDetails}`} onClick={handleMoreDetails}>
-                        More Details
-                    </button>
-                </div>
-            </div>
+          </div>
         </div>
+  
+        <div className={s.content}>
+          <h3 className={s.cardTitle}>{t(tour.titleKey)}</h3>
+  
+          <div className={s.metadata}>
+            <div className={s.metaItem}><FaClock className={s.metaIcon} /> <span>{tour.days} Days / {tour.nights} Nights</span></div>
+            <div className={s.metaItem}><FaUsers className={s.metaIcon} /> <span>{t(tour.peopleKey)}</span></div>
+            <div className={s.metaItem}><FaCalendarAlt className={s.metaIcon} /> <span>{t(tour.seasonKey)}</span></div>
+          </div>
+  
+          <div className={s.destinations}>
+            <p className={s.navTitle}>{t('detailedTours.destinations')}</p>
+            <div className={s.destinationTags}>
+              {tour.locationsKeys.map((key, index) => (
+                <button key={index} className={s.destinationTag}>{t(key)}</button>
+              ))}
+            </div>
+          </div>
+  
+          <p className={s.description}>{t(tour.descriptionKey)}</p>
+  
+          <div className={s.highlightsSection}>
+            <p className={s.highlightsTitle}><FaRegStar className={s.starIcon} /> {t('detailedTours.highlightsLabel')}</p>
+            <ul className={s.highlightsList}>
+              {initialHighlights.map((key, index) => (
+                <li key={index} className={s.highlightItem}>{t(key)}</li>
+              ))}
+              {showAllHighlights && hiddenHighlights.map((key, index) => (
+                <li key={index + 3} className={s.highlightItem}>{t(key)}</li>
+              ))}
+            </ul>
+            {hiddenHighlights.length > 0 && (
+              <button className={s.moreHighlightsBtn} onClick={() => setShowAllHighlights(v => !v)}>
+                <FaPlus className={s.moreIcon} style={{ transform: showAllHighlights ? 'rotate(45deg)' : 'none' }} />
+                {showAllHighlights ? t('detailedTours.viewLess') : `+ ${hiddenHighlights.length} ${t('detailedTours.moreHighlights')}`}
+              </button>
+            )}
+          </div>
+  
+          <div className={s.actions}>
+            <button className={`${s.button} ${s.requestQuote}`}>{t('detailedTours.requestQuote')}</button>
+            <button className={`${s.button} ${s.moreDetails}`}>{t('detailedTours.moreDetails')}</button>
+          </div>
+        </div>
+      </div>
     );
-};
+  };
+  
 
 // Asosiy Komponent - Ma'lumotlarni qabul qiladi
 export default function DetailedTourPackages({ tours = tourPackages }) {

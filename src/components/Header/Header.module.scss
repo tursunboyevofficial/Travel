@@ -2,9 +2,10 @@
   position: fixed; // sahifaning yuqorisiga yopishtiriladi
   top: 0;
   left: 0;
-  width: 100%; background: rgba(255, 255, 255, 0.103); // yarim shaffof oq fon
-  backdrop-filter: blur(5px); // blur effekti
-  -webkit-backdrop-filter: blur(10px); // Safari uchun qo‘shimcha
+  width: 100%; 
+  // background: rgba(255, 255, 255, 0.103); // yarim shaffof oq fon
+  // backdrop-filter: blur(5px); // blur effekti
+  // -webkit-backdrop-filter: blur(10px); // Safari uchun qo‘shimcha
 
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0);// shaffof fon
   padding: 0.5rem 0;
@@ -12,8 +13,8 @@
   transition: background 0.3s ease, box-shadow 0.3s ease;
 
   .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0 15%;
     padding: 0.7rem 1.5rem;
     display: flex;
     justify-content: space-between;
@@ -23,7 +24,9 @@
 
 // scroll qilinganda oq fon chiqishi
 .scrolled {
-  background: rgba(255, 255, 255, 0.103); // yarim shaffof oq fon
+  
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.438);
+  background: rgba(68, 68, 68, 0.281); // yarim shaffof oq fon
   backdrop-filter: blur(50px); // blur effekti
   -webkit-backdrop-filter: blur(10px); // Safari uchun qo‘shimcha
 
@@ -46,13 +49,13 @@
 
     .title {
       font-weight: 700;
-      font-size: 1.2rem;
-      color: #1d3557;
+      font-size: 2rem;
+      color:#3db5ff;
     }
 
     .tagline {
-      font-size: 0.8rem;
-      color: #666;
+      font-size: 1rem;
+      color: #ffffff;
     }
   }
 }
@@ -64,7 +67,7 @@
   a {
     text-decoration: none;
     font-size: 1rem;
-    color: #333;
+    color: #ffffff;
     position: relative;
     transition: 0.3s;
 
@@ -75,7 +78,7 @@
       left: 0;
       width: 0;
       height: 2px;
-      background: #0077ff;
+      background: #3db5ff;
       transition: width 0.3s;
     }
 
@@ -85,7 +88,7 @@
   }
 
   .active {
-    color: #0077ff;
+    color:#3db5ff;
 
     &::after {
       width: 100%;
@@ -100,16 +103,17 @@
 
   a {
     font-size: 1.2rem;
-    color: #333;
+    color: #ffffff;
     transition: 0.3s;
 
     &:hover {
-      color: #0077ff;
+      color:#3db5ff;
     }
   }
 
   .lang {
     display: flex;
+    color: #3db5ff;
     align-items: center;
     gap: 0.3rem;
 
@@ -118,6 +122,7 @@
       font-size: 0.9rem;
       background: transparent;
       cursor: pointer;
+      color: #3db5ff;
     }
   }
 
@@ -143,7 +148,7 @@
     color: #333;
 
     &:hover {
-      color: #0077ff;
+      color:#3db5ff;
     }
   }
 }

@@ -40,7 +40,7 @@ export default function Header() {
             <div className={s.container}>
                 {/* Logo */}
                 <div className={s.logo}>
-                    <img src={logo} alt="logo" />
+                    {/* <img src={logo} alt="logo" /> */}
                     <div className={s.brand}>
                         <span className={s.title}>SamanidTravel</span>
                         <span className={s.tagline}>{t('header_tagline')}</span> {/* <-- Tarjima */}

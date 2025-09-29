@@ -1,0 +1,388 @@
+{
+  "coreValues": {
+    "heading": "Lo Que Nos Impulsa",
+    "subheading": "Nuestros valores fundamentales guían cada decisión que tomamos y cada experiencia que creamos.",
+    "heritage": {
+      "title": "Pasión por el Patrimonio",
+      "text": "Nos apasiona profundamente preservar y compartir la rica herencia cultural de Asia Central con visitantes de todo el mundo."
+    },
+    "service": {
+      "title": "Servicio Personalizado",
+      "text": "Cada viajero es único. Adaptamos nuestros servicios a sus intereses, asegurando una experiencia auténtica e inolvidable."
+    },
+    "expertise": {
+      "title": "Experiencia Local",
+      "text": "Nuestro equipo está formado por guías locales experimentados que conocen las joyas ocultas y las historias detrás de cada monumento y tradición."
+    },
+    "sustainability": {
+      "title": "Turismo Sostenible",
+      "text": "Promovemos viajes responsables que beneficien a las comunidades locales mientras preservamos los sitios históricos para las generaciones futuras."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Nuestros Paquetes Turísticos",
+      "tagline": "Itinerarios cuidadosamente elaborados que muestran los mejores tesoros históricos y experiencias culturales de Uzbekistán."
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Descubrir Asia Central?",
+    "description": "Permítanos compartir nuestra pasión por esta increíble región con usted. Contacte a SamanidTravel hoy y comience a planificar su viaje por el corazón de la Ruta de la Seda.",
+    "call1": "Llamar:",
+    "call2": "Llamar:"
+  },
+  "culture": {
+    "title": "Conectando Culturas a Través del Viaje",
+    "paragraph1": "SamanidTravel fue fundada con una visión simple pero poderosa: compartir la increíble belleza y la rica herencia de Asia Central con viajeros de todo el mundo. Con sede en Bujará, una de las ciudades más históricas a lo largo de la antigua Ruta de la Seda, tenemos profundas raíces en la cultura y tradiciones de la región.",
+    "paragraph2": "Nuestro nombre honra a la dinastía Samánida, que jugó un papel crucial en el desarrollo cultural y arquitectónico de Asia Central durante los siglos IX y X. Así como los Samánidas fueron mecenas de las artes, la cultura y el aprendizaje, nosotros nos esforzamos por ser embajadores culturales, conectando a los visitantes internacionales con auténticas experiencias locales.",
+    "paragraph3": "Cada tour que organizamos está diseñado no solo para mostrarle los magníficos monumentos y los impresionantes paisajes, sino para ayudarle a comprender las historias, tradiciones y personas que hacen que Asia Central sea verdaderamente especial.",
+    "imageAlt": "Arquitectura histórica de Asia Central, posiblemente en Bujará"
+  },
+  "numbers": {
+    "title": "Nuestro Viaje en Números",
+    "subtitle": "Construyendo confianza y creando recuerdos, un viaje a la vez",
+    "travelers": "Viajeros Felices",
+    "packages": "Paquetes Turísticos",
+    "experience": "Años de Experiencia",
+    "destinations": "Destinos"
+  },
+  "whyCentralAsia": {
+    "title": "¿Por qué Asia Central?",
+    "description": "Asia Central, y particularmente Uzbekistán, representa uno de los cruces de civilizaciones más fascinantes del mundo. Durante más de 2.000 años, esta región ha sido el corazón de la Ruta de la Seda, donde el Este se encontró con el Oeste, y donde tuvieron lugar algunos de los mayores logros arquitectónicos y culturales de la humanidad.",
+    "point1": "Sitios Patrimonio Mundial de la UNESCO con impresionante arquitectura islámica",
+    "point2": "Ricas tradiciones de artesanía, desde el tejido de seda hasta la cerámica",
+    "point3": "Cálida hospitalidad y fascinante diversidad cultural",
+    "point4": "Experiencias auténticas lejos del turismo de masas",
+    "imageAlt": "Minarete y arquitectura histórica de Asia Central"
+  },
+  "about_hero_title": "Nuestros Paquetes Turísticos",
+  "about_hero_tagline": "Itinerarios cuidadosamente elaborados que muestran los mejores tesoros históricos y experiencias culturales de Uzbekistán",
+  "cta_title": "¿Listo para Descubrir Asia Central?",
+  "cta_description": "Permítanos compartir nuestra pasión por esta increíble región con usted. Contacte a SamanidTravel hoy y comience a planificar su viaje por el corazón de la Ruta de la Seda.",
+  "cta_call1": "Llamar:",
+  "cta_call2": "Llamar:",
+  "contact": {
+    "hero": {
+      "title": "Nuestros Paquetes Turísticos",
+      "tagline": "Itinerarios cuidadosamente elaborados que muestran los mejores tesoros históricos y experiencias culturales de Uzbekistán"
+    }
+  },
+  "contactInfo": {
+    "heading": "Póngase en Contacto",
+    "office": {
+      "title": "Nuestra Oficina",
+      "address1": "Mustaqillik 56/1",
+      "address2": "Bukhara, Uzbekistan",
+      "note": "Ubicada en el corazón histórico de Bujará, cerca de los monumentos antiguos."
+    },
+    "phone": {
+      "title": "Números de Teléfono",
+      "main": "Contacto principal",
+      "alt": "Contacto alternativo"
+    },
+    "email": {
+      "title": "Direcciones de Correo Electrónico",
+      "general": "Consultas generales",
+      "booking": "Reservas de tours"
+    },
+    "hours": {
+      "title": "Horario Comercial",
+      "weekdays": "Lunes a Viernes: 9:00 AM - 6:00 PM",
+      "saturday": "Sábado: 10:00 AM - 4:00 PM",
+      "sunday": "Domingo: Con cita previa",
+      "note": "Soporte de emergencia disponible 24/7 durante los tours"
+    },
+    "whatsapp": {
+      "note": "Para consultas rápidas y comunicación en tiempo real",
+      "button": "Chatear en WhatsApp"
+    }
+  },
+  "contactForm": {
+    "title": "Planifique Su Viaje",
+    "subtitle": "Cuéntenos sobre sus preferencias de viaje y crearemos un itinerario personalizado para usted.",
+    "fullName": "Nombre Completo *",
+    "fullNamePlaceholder": "Su nombre completo",
+    "email": "Dirección de Correo Electrónico *",
+    "emailPlaceholder": "su@correo.com",
+    "phone": "Número de Teléfono",
+    "phonePlaceholder": "Su número de teléfono",
+    "package": "Paquete Turístico de Interés",
+    "packagePlaceholder": "Seleccione un paquete turístico",
+    "packageOptions": {
+      "silkRoad": "Tour Clásico de la Ruta de la Seda",
+      "uzbekistan": "Especial Uzbekistán",
+      "tailorMade": "Viaje a Medida"
+    },
+    "message": "Su Mensaje *",
+    "messagePlaceholder": "Cuéntenos sobre sus fechas de viaje, tamaño del grupo, intereses especiales o cualquier pregunta que tenga...",
+    "sendButton": "Enviar Consulta",
+    "responseTime": "Tiempo de Respuesta: Generalmente respondemos a las consultas dentro de 24 horas. Para solicitudes urgentes, por favor llámenos directamente.",
+    "alert": "Formulario enviado! (Esta es una función de marcador de posición)"
+  },
+  "faq": {
+    "heading": "Preguntas Frecuentes",
+    "subtitle": "Preguntas comunes sobre viajar a Asia Central con SamanidTravel",
+    "q1": "¿Cuál es la mejor época para visitar Uzbekistán?",
+    "a1": "La mejor época para visitar Uzbekistán es durante la primavera (marzo-mayo) y el otoño (septiembre-noviembre) cuando el clima es templado y perfecto para hacer turismo. El verano puede ser muy caluroso, mientras que el invierno es frío pero aún adecuado para tours culturales.",
+    "q2": "¿Necesito una visa para visitar Uzbekistán?",
+    "a2": "Los requisitos de visa varían según la nacionalidad. Muchos países ahora disfrutan de acceso sin visa o e-visa a Uzbekistán. Podemos proporcionar información detallada sobre visas y asistencia según su ciudadanía.",
+    "q3": "¿Sus tours son adecuados para viajeros solitarios?",
+    "a3": "¡Absolutamente! Damos la bienvenida a los viajeros solitarios y podemos organizar tanto tours en grupo como tours privados individuales. Los viajeros solitarios a menudo se unen a nuestros tours en grupos pequeños para conocer a personas con ideas afines.",
+    "q4": "¿Qué idiomas hablan sus guías?",
+    "a4": "Nuestros guías profesionales hablan inglés, ruso y uzbeko con fluidez. También podemos organizar guías que hablen alemán, francés, español, italiano y otros idiomas previa solicitud."
+  },
+  "payment": {
+    "header": {
+      "title": "Opciones de Pago Seguras",
+      "subtitle": "Aceptamos múltiples monedas y métodos de pago para su conveniencia"
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "step1": {
+        "title": "Elija Su Tour",
+        "desc": "Explore nuestros paquetes y seleccione su aventura perfecta en Asia Central."
+      },
+      "step2": {
+        "title": "Obtenga Presupuesto Personalizado",
+        "desc": "Crearemos un itinerario y precios personalizados solo para usted."
+      },
+      "step3": {
+        "title": "Pago Seguro",
+        "desc": "Pague de forma segura con su método y moneda preferidos."
+      },
+      "step4": {
+        "title": "Disfrute Su Viaje",
+        "desc": "Relájese y permítanos encargarnos de todo para una experiencia inolvidable."
+      }
+    },
+    "currencies": {
+      "title": "Monedas Aceptadas",
+      "popular": "Populares",
+      "usd": "Dólar Estadounidense",
+      "eur": "Euro",
+      "uzs": "Som Uzbeko"
+    },
+    "methods": {
+      "title": "Métodos de Pago",
+      "card": {
+        "title": "Tarjetas de Crédito/Débito",
+        "detail1": "Pagos seguros con las principales tarjetas de crédito",
+        "detail2": "Confirmación instantánea",
+        "detail3": "Verificación segura 3D",
+        "detail4": "Aceptación global"
+      },
+      "bank": {
+        "title": "Transferencia Bancaria",
+        "detail1": "Transferencias bancarias directas y pagos por cable",
+        "detail2": "Transferencia bancaria directa",
+        "detail3": "Tarifas más bajas",
+        "detail4": "Procesamiento seguro"
+      },
+      "paypal": {
+        "title": "PayPal",
+        "detail1": "Pagos rápidos y seguros con PayPal",
+        "detail2": "Protección al comprador",
+        "detail3": "Pago rápido",
+        "detail4": "Cobertura global"
+      }
+    },
+    "security": {
+      "title": "Seguridad a Nivel Bancario",
+      "item1": "Todos los pagos se procesan a través de conexiones seguras y encriptadas",
+      "item2": "Cifrado SSL/TLS",
+      "item3": "Cumple con PCI DSS",
+      "item4": "Protección contra fraude"
+    },
+    "terms": {
+      "title": "Términos de Pago Flexibles",
+      "item1": "Pague a plazos o el monto total - su elección",
+      "item2": "Depósito del 30% para confirmar la reserva",
+      "item3": "Saldo restante antes del tour",
+      "item4": "Reembolso completo por cancelaciones*"
+    },
+    "cta": {
+      "title": "¿Listo para Reservar Su Aventura?",
+      "subtitle": "Obtenga un presupuesto personalizado para el tour de sus sueños a Asia Central. Nuestros expertos en viajes crearán el itinerario perfecto solo para usted.",
+      "button1": "Obtener Presupuesto Gratis",
+      "button2": "Contáctenos",
+      "disclaimer": "*Se aplican términos y condiciones. Contáctenos para la política de cancelación completa."
+    }
+  },
+  "adventureBanner": {
+    "title": "¿Listo para Su Aventura en Asia Central?",
+    "description": "Permítanos crear un viaje inolvidable a través de la antigua Ruta de la Seda. Contacte a nuestro equipo hoy para comenzar a planificar el tour de sus sueños a Uzbekistán.",
+    "buttonPrimary": "Póngase en Contacto",
+    "buttonWhatsapp": "Envíanos un WhatsApp"
+  },
+  "featuredTours": {
+    "heading": "Paquetes Turísticos Destacados",
+    "tagline": "Itinerarios cuidadosamente elaborados que muestran los mejores tesoros históricos y experiencias culturales de Uzbekistán",
+    "learnMore": "Saber Más",
+    "requestQuote": "Solicitar Presupuesto",
+    "highlightsLabel": "Destacados:",
+    "tour1": {
+      "title": "Uzbekistán Clásico: Triángulo de Oro",
+      "duration": "7 Días",
+      "locations": "Tashkent - Samarkanda - Bujará",
+      "description": "Descubra las ciudades doradas de Uzbekistán en este viaje clásico a través de Taskent, Samarcanda y Bujará. Experimente las maravillas arquitectónicas y la rica historia de la Ruta de la Seda.",
+      "highlights": [
+        "Plaza de Registán",
+        "Mausoleo de Gur-Emir",
+        "Fortaleza de Ark",
+        "Complejo Poi Kalyan"
+      ]
+    },
+    "tour2": {
+      "title": "Ciudades Antiguas de la Ruta de la Seda",
+      "duration": "10 Días",
+      "locations": "Tashkent - Samarkanda - Bujará - Jiva",
+      "description": "Exploración completa de las antiguas ciudades de la Ruta de la Seda, incluyendo los sitios Patrimonio Mundial de la UNESCO de Samarcanda, Bujará y Jiva.",
+      "highlights": [
+        "Itchan Kala",
+        "Shahi-i Zinda",
+        "Lyab-i Hauz",
+        "Minarete de Kalta Minor"
+      ]
+    }
+  },
+  "testimonials": {
+    "heading": "Lo Que Dicen Nuestros Viajeros",
+    "subtitle": "Experiencias reales de viajeros reales",
+    "1": {
+      "quote": "¡Un viaje absolutamente mágico por Uzbekistán! Los guías eran increíblemente conocedores y los sitios históricos eran impresionantes.",
+      "author": "Sarah Johnson",
+      "country": "Reino Unido",
+      "tour": "Tour del Triángulo de Oro"
+    },
+    "2": {
+      "quote": "Organización perfecta y experiencias auténticas. Las ciudades de la ruta de la seda superaron todas mis expectativas. ¡Muy recomendado!",
+      "author": "Hans Mueller",
+      "country": "Alemania",
+      "tour": "Tour de Ciudades Antiguas"
+    },
+    "3": {
+      "quote": "La inmersión cultural fue increíble. Desde artesanías tradicionales hasta cocina local, cada momento fue inolvidable.",
+      "author": "Marie Dubois",
+      "country": "Francia",
+      "tour": "Tour del Valle de Fergana"
+    }
+  },
+  "whyChoose": {
+    "heading": "Por Qué Elegirnos",
+    "subheading": "Nos apasiona compartir la belleza y la herencia de Asia Central con viajeros de todo el mundo.",
+    "feature1": {
+      "title": "Guías Expertos Locales",
+      "text": "Guías profesionales con profundo conocimiento de la historia y cultura de Uzbekistán."
+    },
+    "feature2": {
+      "title": "Experiencias Auténticas",
+      "text": "Oportunidades para sumergirse completamente en las costumbres y tradiciones locales."
+    },
+    "feature3": {
+      "title": "Especialistas en Asia Central",
+      "text": "Servicios enfocados exclusivamente en Uzbekistán y la región de Asia Central."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Explore el Mundo con Travel Uz",
+      "subtitle": "Encuentre viajes emocionantes, boletos asequibles y servicios de primera calidad, todo a través de nosotros.",
+      "button": "Empezar"
+    }
+  },
+  "tourCard": {
+    "viewDetails": "Ver Detalles",
+    "highlights": "Destacados",
+    "viewLessHighlights": "Ver menos destacados",
+    "moreHighlights": "más destacados",
+    "requestQuote": "Solicitar Presupuesto",
+    "moreDetails": "Más Detalles",
+    "days": "Días",
+    "nights": "Noches",
+    "destinations": "Destinos",
+    "alertQuote": "solicitud enviada.",
+    "alertDetails": "navegado a la página de detalles.",
+    "alertView": "vista de imagen clicada.",
+    "alertDestination": "Destino seleccionado"
+  },
+  "tours": {
+    "title": "Nuestros Paquetes Turísticos",
+    "tagline": "Itinerarios cuidadosamente elaborados que muestran los mejores tesoros históricos y experiencias culturales de Uzbekistán"
+  },
+  "footer": {
+    "description": "Viajes diseñados por expertos a través de Asia Central. Explore las ciudades de la Ruta de la Seda, incluida la antigua arquitectura de Samarcanda y las encantadoras calles de Bujará.",
+    "address": "Mustaqillik 54/1, Bukhara, Uzbekistan",
+    "phone": "+998 91 400 44 59 / +998 90 715 51 98",
+    "email1": "beenur@samanidtravel.com",
+    "email2": "anwaratsaxon1@gmail.com",
+    "hours": "Lunes a Viernes: 9:00 AM - 6:00 PM",
+    "quickLinks": {
+      "title": "Enlaces Rápidos",
+      "home": "Inicio",
+      "tours": "Tours",
+      "about": "Sobre Nosotros",
+      "contact": "Contacto"
+    },
+    "destinations": {
+      "title": "Destinos",
+      "samarkand": "Samarkanda",
+      "bukhara": "Bujará",
+      "khiva": "Jiva",
+      "tashkent": "Taskent",
+      "fergana": "Valle de Fergana"
+    },
+    "followUs": {
+      "title": "Síguenos",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "copyright": "© 2024 SamanidTravel. Todos los derechos reservados. Descubre las maravillas de Asia Central."
+  },
+  "header_tagline": "Descubre Asia Central con Expertos",
+  "nav_home": "Inicio",
+  "nav_tours": "Tours",
+  "nav_about": "Sobre Nosotros",
+  "nav_contact": "Contacto",
+    "detailedTours": {
+      "viewDetails": "Ver detalles",
+      "requestQuote": "Solicitar presupuesto",
+      "moreDetails": "Más información",
+      "viewLess": "Ver menos atracciones",
+      "moreHighlights": "más atracciones",
+      "highlightsLabel": "Atracciones destacadas:",
+      "destinations": "Destinos",
+      "1": {
+        "title": "Uzbekistán clásico: Triángulo dorado",
+        "durationTag": "7 días / 6 noches",
+        "seasonTag": "Todo el año",
+        "people": "2–16 personas",
+        "season": "Todo el año",
+        "description": "Explora las ciudades más icónicas de Uzbekistán en este viaje completo por el corazón de la Ruta de la Seda. Visita monumentos arquitectónicos, bazares animados y vive la auténtica cultura centroasiática.",
+        "locations": ["Tashkent", "Samarcanda", "Bujará"],
+        "highlights": [
+          "Plaza Registán en Samarcanda – Patrimonio de la Humanidad por la UNESCO",
+          "Mezquita Bibi-Khanym – una de las más grandes del mundo islámico",
+          "Necrópolis Shah-i-Zinda – avenida de mausoleos",
+          "Mausoleo Gur-Emir",
+          "Madraza Chor Minor"
+        ]
+      },
+      "2": {
+        "title": "Ciudades antiguas de la Ruta de la Seda",
+        "durationTag": "10 días / 9 noches",
+        "seasonTag": "Marzo–Noviembre",
+        "people": "4–12 personas",
+        "season": "Marzo–Noviembre",
+        "description": "La experiencia definitiva de la Ruta de la Seda que cubre todas las ciudades históricas principales de Uzbekistán. Un viaje a través de 2500 años de historia desde la antigua Khiva hasta la medieval Bujará y la magnífica Samarcanda.",
+        "locations": ["Tashkent", "Samarcanda", "Bujará", "Khiva"],
+        "highlights": [
+          "Ichan Qala de Khiva – ciudad museo al aire libre",
+          "Kunya Ark – antigua fortaleza y residencia de los khanes de Khiva",
+          "Palacio Tash Hauli – obra maestra de la arquitectura centroasiática",
+          "Complejo Lyab-i Hauz",
+          "Minarete Kalta Minor"
+        ]
+      }
+    }
+    
+}
