@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './WhyCentralAsia.module.scss';
-
+import images from "../../../assets/getItems"
 const IMAGE_URL = 'https://picsum.photos/seed/kalyan/450/600';
 
 const WhyCentralAsia = () => {
@@ -19,7 +19,7 @@ const WhyCentralAsia = () => {
       <div className={styles.contentWrapper}>
         <div className={styles.imageCard}>
           <img
-            src={IMAGE_URL}
+            src={images.AboutCentralAsia}
             alt={t('whyCentralAsia.imageAlt')}
             className={styles.mainImage}
           />

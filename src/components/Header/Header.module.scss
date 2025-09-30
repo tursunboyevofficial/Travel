@@ -22,6 +22,7 @@
   }
 }
 
+
 // scroll qilinganda oq fon chiqishi
 .scrolled {
   
@@ -138,6 +139,9 @@
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
+    svg{
+      color: white;
+    }
   }
 }
 
@@ -159,6 +163,11 @@
   }
 }
 
+@media (max-width: 1400px) {
+  .container{
+    margin: 10px 100px!important;
+  }
+}
 /* Responsive */
 @media (max-width: 768px) {
   .nav {

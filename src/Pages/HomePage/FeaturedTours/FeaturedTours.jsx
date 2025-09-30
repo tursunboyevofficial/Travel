@@ -100,7 +100,7 @@ const TourCard = ({ tour }) => {
               {t("featuredTours.learnMore")}
             </button>
           </Link>
-          <Link className={s.Link} to={`/tours?highlight=${tour.id}`}>
+          <Link className={s.Link} to={`/contact?package=${encodeURIComponent(t(tour.titleKey))}`}>
             <button className={`${s.button} ${s.requestQuote}`}>
               {t("featuredTours.requestQuote")}
             </button>

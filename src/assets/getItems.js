@@ -5,6 +5,8 @@ import HomeCardGoldenRing from "./TravelPhoto/HomeCardGoldenRing.jpg";
 import TermizTour from "./TravelPhoto/TermizTour.jpg";
 import AralTour from "./TravelPhoto/AralTour.jpg";
 import FerganaTour from "./TravelPhoto/FerganaTour.jpg";
+import AboutCulture from "./TravelPhoto/AboutCulture.jpg"
+import AboutCentralAsia from "./TravelPhoto/AboutCentralAsia.jpg"
 
 
 export default {
@@ -15,4 +17,6 @@ export default {
   TermizTour,
   AralTour,
   FerganaTour,
+  AboutCulture,
+  AboutCentralAsia,
 };

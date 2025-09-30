@@ -127,7 +127,9 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-const TourCard = ({ tour }) => {
+import TourModal from "../TourModal/TourModal";
+// TourCard komponenti
+const TourCard = ({ tour, onOpenModal }) => {
   const { t } = useTranslation();
   const initialHighlights = tour.highlightsKeys.slice(0, 3);
   const hiddenHighlights = tour.highlightsKeys.slice(3);
@@ -143,7 +145,7 @@ const TourCard = ({ tour }) => {
           <span className={s.durationTag}>{t(tour.durationTagKey)}</span>
           <span className={s.seasonTag}>{t(tour.seasonTagKey)}</span>
           <div className={s.overlay}>
-            <button className={s.viewDetailsBtn}>
+            <button className={s.viewDetailsBtn} onClick={() => onOpenModal(tour)}>
               {t("detailedTours.viewDetails")}
             </button>
           </div>
@@ -156,16 +158,13 @@ const TourCard = ({ tour }) => {
         <div className={s.metadata}>
           <div className={s.metaItem}>
             <FaClock className={s.metaIcon} />{" "}
-            <span>
-              {tour.days} Days / {tour.nights} Nights
-            </span>
+            <span>{tour.days} Days / {tour.nights} Nights</span>
           </div>
           <div className={s.metaItem}>
             <FaUsers className={s.metaIcon} /> <span>{t(tour.peopleKey)}</span>
           </div>
           <div className={s.metaItem}>
-            <FaCalendarAlt className={s.metaIcon} />{" "}
-            <span>{t(tour.seasonKey)}</span>
+            <FaCalendarAlt className={s.metaIcon} /> <span>{t(tour.seasonKey)}</span>
           </div>
         </div>
 
@@ -173,9 +172,7 @@ const TourCard = ({ tour }) => {
           <p className={s.navTitle}>{t("detailedTours.destinations")}</p>
           <div className={s.destinationTags}>
             {tour.locationsKeys.map((key, index) => (
-              <button key={index} className={s.destinationTag}>
-                {t(key)}
-              </button>
+              <button key={index} className={s.destinationTag}>{t(key)}</button>
             ))}
           </div>
         </div>
@@ -184,21 +181,15 @@ const TourCard = ({ tour }) => {
 
         <div className={s.highlightsSection}>
           <p className={s.highlightsTitle}>
-            <FaRegStar className={s.starIcon} />{" "}
-            {t("detailedTours.highlightsLabel")}
+            <FaRegStar className={s.starIcon} /> {t("detailedTours.highlightsLabel")}
           </p>
           <ul className={s.highlightsList}>
             {initialHighlights.map((key, index) => (
-              <li key={index} className={s.highlightItem}>
-                {t(key)}
-              </li>
+              <li key={index} className={s.highlightItem}>{t(key)}</li>
             ))}
-            {showAllHighlights &&
-              hiddenHighlights.map((key, index) => (
-                <li key={index + 3} className={s.highlightItem}>
-                  {t(key)}
-                </li>
-              ))}
+            {showAllHighlights && hiddenHighlights.map((key, index) => (
+              <li key={index + 3} className={s.highlightItem}>{t(key)}</li>
+            ))}
           </ul>
           {hiddenHighlights.length > 0 && (
             <button
@@ -207,27 +198,24 @@ const TourCard = ({ tour }) => {
             >
               <FaPlus
                 className={s.moreIcon}
-                style={{
-                  transform: showAllHighlights ? "rotate(45deg)" : "none",
-                }}
+                style={{ transform: showAllHighlights ? "rotate(45deg)" : "none" }}
               />
               {showAllHighlights
                 ? t("detailedTours.viewLess")
-                : `+ ${hiddenHighlights.length} ${t(
-                    "detailedTours.moreHighlights"
-                  )}`}
+                : `+ ${hiddenHighlights.length} ${t("detailedTours.moreHighlights")}`}
             </button>
           )}
         </div>
 
         <div className={s.actions}>
-          <Link className={s.Link} to={`/contact?package=${encodeURIComponent(t(tour.titleKey))}`}>
-            <button className={`${s.button} ${s.requestQuote}`}>
-              {t("detailedTours.requestQuote")}
-            </button>
+          <Link
+            className={s.Link}
+            to={`/contact?package=${encodeURIComponent(t(tour.titleKey))}`}
+          >
+            <button className={`${s.button} ${s.requestQuote}`}>{t("detailedTours.requestQuote")}</button>
           </Link>
 
-          <button className={`${s.button} ${s.moreDetails}`}>
+          <button className={`${s.button} ${s.moreDetails}`} onClick={() => onOpenModal(tour)}>
             {t("detailedTours.moreDetails")}
           </button>
         </div>
@@ -236,31 +224,37 @@ const TourCard = ({ tour }) => {
   );
 };
 
-// Asosiy Komponent - Ma'lumotlarni qabul qiladi
+// Asosiy komponent
 export default function DetailedTourPackages({ tours = tourPackages }) {
   const location = useLocation();
+  const { t } = useTranslation();
+  const [selectedTour, setSelectedTour] = useState(null);
+
+  const openModal = (tour) => setSelectedTour(tour);
+  const closeModal = () => setSelectedTour(null);
+
   useEffect(() => {
     const params = new URLSearchParams(location.search);
     const cardId = params.get("highlight");
     if (cardId) {
       const element = document.getElementById(`tour-${cardId}`);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
+      if (element) element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }, [location]);
+
   return (
     <section className={s.section}>
       <div className={s.container}>
         <div className={s.toursGrid}>
-          {/* Obyektdagi ma'lumotlar shu yerda dinamik render qilinadi */}
           {tours.map((tour) => (
             <div id={`tour-${tour.id}`} key={tour.id}>
-              <TourCard tour={tour} />
+              <TourCard tour={tour} onOpenModal={openModal} />
             </div>
           ))}
         </div>
       </div>
+
+      {selectedTour && <TourModal tour={selectedTour} t={t} onClose={closeModal} />}
     </section>
   );
 }

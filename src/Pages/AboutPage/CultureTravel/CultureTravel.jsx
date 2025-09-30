@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './CultureTravel.module.scss';
+import  images  from "../../../assets/getItems";
 
 const IMAGE_URL = 'https://picsum.photos/seed/bukhara/600/400';
 
@@ -23,7 +24,7 @@ const CultureTravel = () => {
           <div className={styles.imageSection}>
             <div className={styles.imageCard}>
               <img
-                src={IMAGE_URL}
+                src={images.AboutCulture}
                 alt={t('culture.imageAlt')}
                 className={styles.travelImage}
               />

@@ -15,17 +15,21 @@ const ContactForm = () => {
     e.preventDefault();
     alert(t('contactForm.alert'));
   };
+
   const location = useLocation();
 
-  const params = new URLSearchParams(location.search);
-  const preselectedPackage = params.get("package") || "";
-
   useEffect(() => {
-    const select = document.getElementById("package");
-    if (select && preselectedPackage) {
-      select.value = preselectedPackage;
+    const params = new URLSearchParams(location.search);
+    const preselectedPackage = params.get("package");
+    if (!preselectedPackage) return; // agar package param bo'lmasa scroll bo'lmasin
+
+    const formElement = document.querySelector(`.${styles.formContainer}`);
+    if (formElement) {
+      const yOffset = -100; // tepaga 100px offset
+      const y = formElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
     }
-  }, [preselectedPackage]);
+  }, [location]);
 
   return (
     <div className={styles.formContainer}>
@@ -87,12 +91,6 @@ const ContactForm = () => {
 
 const ContactFormPage = () => {
   const { t } = useTranslation();
-  useEffect(() => {
-    const formElement = document.querySelector(`.${styles.formContainer}`);
-    if (formElement) {
-      formElement.scrollIntoView({ behavior: "smooth" });
-    }
-  }, []);
   const contactCards = [
     {
       icon: FaMapMarkerAlt,
