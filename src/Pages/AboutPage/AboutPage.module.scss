@@ -1,6 +1,6 @@
 // Taxminiy fon rasmining URL manzili.
 // Siz buni o'z loyihangizdagi rasm manziliga o'zgartirishingiz kerak.
-$hero-image: url('../../assets//Banner//HomeFooterBanner.png');
+$hero-image: url('../../assets//Banner/AboutHeaderBanner.jpg');
 
 // Overlay uchun rang va shaffoflik
 $overlay-color: rgba(0, 0, 0, 0.4); // Qora rang, 40% shaffoflik
@@ -9,11 +9,11 @@ $overlay-color: rgba(0, 0, 0, 0.4); // Qora rang, 40% shaffoflik
     // 1. Fon rasmini o'rnatish
     background-image: $hero-image;
     background-size: cover;
-    background-position: center 20%; // Rasmdagi kabi markazdan biroz pastga siljitish
+    background-position: center 90%; // Rasmdagi kabi markazdan biroz pastga siljitish
     background-repeat: no-repeat;
     
     // 2. Balandlikni belgilash (rasmga qarab taxminiy 350px)
-    height: 350px; 
+    height: 50vh; 
     
     // 3. Kontentni markazga joylashtirish uchun Flexbox
     display: flex;

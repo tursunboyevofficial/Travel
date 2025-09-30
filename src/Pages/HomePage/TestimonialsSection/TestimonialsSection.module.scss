@@ -45,7 +45,8 @@ $border-color: #e0e0e0; // Chegaralar uchun yengil rang
 }
 
 .card {
-    background-color: $card-bg;
+    background: linear-gradient(120deg, #eff6ff, white);
+    background-color: #eff6ff;
     border-radius: 12px;
     padding: 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Yengil soya */
@@ -55,9 +56,6 @@ $border-color: #e0e0e0; // Chegaralar uchun yengil rang
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-    /* Rasmdagi yengil ko'k fonni taqlid qilish */
-    background-color: #f8fbff; 
     border: 1px solid #eef3f9;
 }
 

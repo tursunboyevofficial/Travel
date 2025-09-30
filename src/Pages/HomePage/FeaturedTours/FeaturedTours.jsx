@@ -1,37 +1,58 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
-import s from './FeaturedTours.module.scss';
-import { FaMapMarkerAlt, FaRegStar } from 'react-icons/fa';
-
+import React from "react";
+import { useTranslation } from "react-i18next";
+import s from "./FeaturedTours.module.scss";
+import { FaMapMarkerAlt, FaRegStar } from "react-icons/fa";
+import images from "../../../assets/getItems";
+import { Link } from "react-router-dom";
 const tourPackages = [
   {
     id: 1,
-    titleKey: 'featuredTours.tour1.title',
-    durationKey: 'featuredTours.tour1.duration',
-    image: 'URL_TO_REGISTAN_IMAGE',
-    locationsKey: 'featuredTours.tour1.locations',
-    descriptionKey: 'featuredTours.tour1.description',
+    titleKey: "featuredTours.tour1.title",
+    durationKey: "featuredTours.tour1.duration",
+    image: images.HomeCardShahiZinda,
+    locationsKey: "featuredTours.tour1.locations",
+    descriptionKey: "featuredTours.tour1.description",
     highlightsKeys: [
-      'featuredTours.tour1.highlights.0',
-      'featuredTours.tour1.highlights.1',
-      'featuredTours.tour1.highlights.2',
-      'featuredTours.tour1.highlights.3'
-    ]
+      "featuredTours.tour1.highlights.0",
+      "featuredTours.tour1.highlights.1",
+      "featuredTours.tour1.highlights.2",
+      "featuredTours.tour1.highlights.3",
+    ],
   },
   {
     id: 2,
-    titleKey: 'featuredTours.tour2.title',
-    durationKey: 'featuredTours.tour2.duration',
-    image: 'URL_TO_SHAKH_I_ZINDA_IMAGE',
-    locationsKey: 'featuredTours.tour2.locations',
-    descriptionKey: 'featuredTours.tour2.description',
+    titleKey: "featuredTours.tour2.title",
+    durationKey: "featuredTours.tour2.duration",
+    image: images.HomeCardGoldenRing,
+    locationsKey: "featuredTours.tour2.locations",
+    descriptionKey: "featuredTours.tour2.description",
     highlightsKeys: [
-      'featuredTours.tour2.highlights.0',
-      'featuredTours.tour2.highlights.1',
-      'featuredTours.tour2.highlights.2',
-      'featuredTours.tour2.highlights.3'
-    ]
-  }
+      "featuredTours.tour2.highlights.0",
+      "featuredTours.tour2.highlights.1",
+      "featuredTours.tour2.highlights.2",
+      "featuredTours.tour2.highlights.3",
+    ],
+  },
+  {
+    id: 5,
+    image: images.TermizTour,
+    titleKey: "detailedTours.5.title",
+    durationTagKey: "detailedTours.5.durationTag",
+    seasonTagKey: "detailedTours.5.seasonTag",
+    days: 3,
+    nights: 2,
+    peopleKey: "detailedTours.5.people",
+    seasonKey: "detailedTours.5.season",
+    descriptionKey: "detailedTours.5.description",
+    locationsKeys: [
+      "detailedTours.5.locations.0",
+      "detailedTours.5.locations.1",
+    ],
+    highlightsKeys: [
+      "detailedTours.5.highlights.0",
+      "detailedTours.5.highlights.1",
+    ],
+  },
 ];
 
 const TourCard = ({ tour }) => {
@@ -60,7 +81,8 @@ const TourCard = ({ tour }) => {
 
         <div className={s.highlightsSection}>
           <p className={s.highlightsTitle}>
-            <FaRegStar className={s.starIcon} /> {t('featuredTours.highlightsLabel')}
+            <FaRegStar className={s.starIcon} />{" "}
+            {t("featuredTours.highlightsLabel")}
           </p>
           <ul className={s.highlightsList}>
             {tour.highlightsKeys.map((key, index) => (
@@ -73,8 +95,16 @@ const TourCard = ({ tour }) => {
         </div>
 
         <div className={s.actions}>
-          <button className={`${s.button} ${s.learnMore}`}>{t('featuredTours.learnMore')}</button>
-          <button className={`${s.button} ${s.requestQuote}`}>{t('featuredTours.requestQuote')}</button>
+          <Link className={s.Link} to={`/tours?highlight=${tour.id}`}>
+            <button className={`${s.button} ${s.learnMore}`}>
+              {t("featuredTours.learnMore")}
+            </button>
+          </Link>
+          <Link className={s.Link} to={`/tours?highlight=${tour.id}`}>
+            <button className={`${s.button} ${s.requestQuote}`}>
+              {t("featuredTours.requestQuote")}
+            </button>
+          </Link>
         </div>
       </div>
     </div>
@@ -87,11 +117,11 @@ export default function FeaturedTours({ tours = tourPackages }) {
   return (
     <section className={s.section}>
       <div className={s.container}>
-        <h2 className={s.mainTitle}>{t('featuredTours.heading')}</h2>
-        <p className={s.tagline}>{t('featuredTours.tagline')}</p>
+        <h2 className={s.mainTitle}>{t("featuredTours.heading")}</h2>
+        <p className={s.tagline}>{t("featuredTours.tagline")}</p>
 
         <div className={s.toursGrid}>
-          {tours.map(tour => (
+          {tours.map((tour) => (
             <TourCard key={tour.id} tour={tour} />
           ))}
         </div>

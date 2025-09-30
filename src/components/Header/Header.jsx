@@ -40,9 +40,9 @@ export default function Header() {
             <div className={s.container}>
                 {/* Logo */}
                 <div className={s.logo}>
-                    {/* <img src={logo} alt="logo" /> */}
-                    <div className={s.brand}>
-                        <span className={s.title}>SamanidTravel</span>
+                    
+                    <div className={s.brand} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                        <span className={s.title} >SamanidTravel</span>
                         <span className={s.tagline}>{t('header_tagline')}</span> {/* <-- Tarjima */}
                     </div>
                 </div>

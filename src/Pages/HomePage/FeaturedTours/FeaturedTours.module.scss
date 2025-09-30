@@ -36,7 +36,8 @@ $highlight-dot: #007bff; // Highlight nuqtalarining ko'k rangi
 }
 
 .toursGrid {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     gap: 30px;
 
@@ -177,6 +178,12 @@ $highlight-dot: #007bff; // Highlight nuqtalarining ko'k rangi
     margin-top: 25px;
     padding-top: 20px;
     border-top: 1px solid #eee;
+    .Link{
+        width: 100%;
+        button{
+            width: 100%;
+        }
+    }
 }
 
 .button {

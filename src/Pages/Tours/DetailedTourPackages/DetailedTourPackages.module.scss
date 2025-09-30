@@ -260,6 +260,12 @@ $highlight-dot: #2563eb;
     display: flex;
     gap: 15px;
     margin-top: 30px;
+    .Link{
+        width: 100%;
+        button{
+            width: 100%;
+        }
+    }
 }
 
 .button {

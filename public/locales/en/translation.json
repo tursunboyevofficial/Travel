@@ -21,8 +21,8 @@
   },
     "about": {
       "hero": {
-        "title": "Our Tour Packages",
-        "tagline": "Carefully crafted itineraries showcasing the best of Uzbekistan's historical treasures and cultural experiences"
+        "title": "About SamanidTravel",
+        "tagline": "Your gateway to the ancient wonders of Central Asia. Based in the historic city of Bukhara, we specialize in creating unforgettable journeys through Uzbekistan and beyond."
       }
     
   },
@@ -391,47 +391,94 @@
                             "nav_about": "About Us",
                             "nav_contact": "Contact",
                             
-                              "detailedTours": {
-                                "viewDetails": "View Details",
-                                "requestQuote": "Request Quote",
-                                "moreDetails": "More Details",
-                                "viewLess": "View less highlights",
-                                "moreHighlights": "more highlights",
-                                "highlightsLabel": "Highlights:",
-                                "destinations": "Destinations",
-                                "1": {
-                                  "title": "Classic Uzbekistan: Golden Triangle",
-                                  "durationTag": "7 Days / 6 Nights",
-                                  "seasonTag": "All Year",
-                                  "people": "2–16 people",
-                                  "season": "All Year",
-                                  "description": "Explore the most iconic cities of Uzbekistan in this comprehensive journey through the heart of the Silk Road. Visit magnificent architectural monuments, bustling bazaars, and experience authentic Central Asian culture.",
-                                  "locations": ["Tashkent", "Samarkand", "Bukhara"],
-                                  "highlights": [
-                                    "Registan Square in Samarkand - UNESCO World Heritage Site",
-                                    "Bibi-Khanym Mosque - One of the largest mosques in the Islamic world",
-                                    "Shah-i-Zinda Necropolis - Avenue of mausoleums",
-                                    "Gur-Emir Mausoleum",
-                                    "Chor Minor Madrasah"
-                                  ]
-                                },
-                                "2": {
-                                  "title": "Ancient Cities of the Silk Road",
-                                  "durationTag": "10 Days / 9 Nights",
-                                  "seasonTag": "Mar–Nov",
-                                  "people": "4–12 people",
-                                  "season": "Mar–Nov",
-                                  "description": "The ultimate Silk Road experience covering all major historical cities of Uzbekistan. Journey through 2,500 years of history from ancient Khiva to medieval Bukhara and magnificent Samarkand.",
-                                  "locations": ["Tashkent", "Samarkand", "Bukhara", "Khiva"],
-                                  "highlights": [
-                                    "Khiva's Ichan Qala - Open-air museum city",
-                                    "Kunya Ark - Ancient fortress and former residence of Khiva Khans",
-                                    "Tash Hauli Palace - Masterpiece of Central Asian architecture",
-                                    "Lyab-i Hauz Complex",
-                                    "Kalta Minor Minaret"
-                                  ]
-                                }
+                            "detailedTours": {
+                              "viewDetails": "View Details",
+                              "requestQuote": "Request Quote",
+                              "moreDetails": "More Details",
+                              "viewLess": "View less highlights",
+                              "moreHighlights": "more highlights",
+                              "highlightsLabel": "Highlights:",
+                              "destinations": "Destinations",
+                            
+                              "1": {
+                                "title": "Classic Uzbekistan: Golden Triangle",
+                                "durationTag": "7 Days / 6 Nights",
+                                "seasonTag": "All Year",
+                                "people": "2–16 people",
+                                "season": "All Year",
+                                "description": "Explore the most iconic cities of Uzbekistan in this comprehensive journey through the heart of the Silk Road. Visit magnificent architectural monuments, bustling bazaars, and experience authentic Central Asian culture.",
+                                "locations": ["Tashkent", "Samarkand", "Bukhara"],
+                                "highlights": [
+                                  "Registan Square in Samarkand - UNESCO World Heritage Site",
+                                  "Bibi-Khanym Mosque - One of the largest mosques in the Islamic world",
+                                  "Shah-i-Zinda Necropolis - Avenue of mausoleums",
+                                  "Gur-Emir Mausoleum",
+                                  "Chor Minor Madrasah"
+                                ]
+                              },
+                            
+                              "2": {
+                                "title": "Ancient Cities of the Silk Road",
+                                "durationTag": "10 Days / 9 Nights",
+                                "seasonTag": "Mar–Nov",
+                                "people": "4–12 people",
+                                "season": "Mar–Nov",
+                                "description": "The ultimate Silk Road experience covering all major historical cities of Uzbekistan. Journey through 2,500 years of history from ancient Khiva to medieval Bukhara and magnificent Samarkand.",
+                                "locations": ["Tashkent", "Samarkand", "Bukhara", "Khiva"],
+                                "highlights": [
+                                  "Khiva's Ichan Qala - Open-air museum city",
+                                  "Kunya Ark - Ancient fortress and former residence of Khiva Khans",
+                                  "Tash Hauli Palace - Masterpiece of Central Asian architecture",
+                                  "Lyab-i Hauz Complex",
+                                  "Kalta Minor Minaret"
+                                ]
+                              },
+                            
+                              "3": {
+                                "title": "Fergana Valley Cultural Discovery",
+                                "durationTag": "5 Days / 4 Nights",
+                                "seasonTag": "Apr–Aug",
+                                "people": "2–12 people",
+                                "season": "Apr–Aug",
+                                "description": "Discover the rich handicraft traditions and stunning landscapes of the Fergana Valley. Visit silk factories, ceramics workshops, and royal palaces.",
+                                "locations": ["Fergana", "Margilan", "Kokand"],
+                                "highlights": [
+                                  "Yodgorlik Silk Factory - Traditional silk weaving",
+                                  "Kokand Khudayar Khan Palace",
+                                  "Rishtan Ceramics Workshop - Handmade pottery museum"
+                                ]
+                              },
+                            
+                              "4": {
+                                "title": "Aral Sea & Nukus Adventure",
+                                "durationTag": "4 Days / 3 Nights",
+                                "seasonTag": "May–Sep",
+                                "people": "4–14 people",
+                                "season": "May–Sep",
+                                "description": "A rare expedition to the disappearing Aral Sea and the world-famous Savitsky Museum in Nukus. Witness the remains of a maritime past now swallowed by the desert.",
+                                "locations": ["Nukus", "Muynak"],
+                                "highlights": [
+                                  "Savitsky Art Museum - Louvre of the Desert",
+                                  "Muynak Ship Graveyard",
+                                  "Camping in the Aral Desert"
+                                ]
+                              },
+                            
+                              "5": {
+                                "title": "Termez & Buddhist Heritage Tour",
+                                "durationTag": "3 Days / 2 Nights",
+                                "seasonTag": "Sep–Nov",
+                                "people": "2–8 people",
+                                "season": "Sep–Nov",
+                                "description": "A spiritual journey through ancient Buddhist and Islamic sites in the southernmost part of Uzbekistan. Ideal for history lovers and cultural explorers.",
+                                "locations": ["Termez", "Fayaztepa"],
+                                "highlights": [
+                                  "Fayaztepa Buddhist Monastery",
+                                  "Kampir Tepe Ruins"
+                                ]
                               }
+                            }
+                            
                             
                             
 }
