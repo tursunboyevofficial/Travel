@@ -7,6 +7,7 @@ import AralTour from "./TravelPhoto/AralTour.jpg";
 import FerganaTour from "./TravelPhoto/FerganaTour.jpg";
 import AboutCulture from "./TravelPhoto/AboutCulture.jpg"
 import AboutCentralAsia from "./TravelPhoto/AboutCentralAsia.jpg"
+import HomeBannerFooter from "./Banner/HomeBannerFooter2.jpg"
 
 
 export default {
@@ -19,4 +20,5 @@ export default {
   FerganaTour,
   AboutCulture,
   AboutCentralAsia,
+  HomeBannerFooter,
 };

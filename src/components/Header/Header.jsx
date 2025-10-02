@@ -66,10 +66,10 @@ export default function Header() {
                 {/* Right side */}
                 <div className={s.right}>
                     {/* ... Ijtimoiy tarmoq ikonlari ... */}
-                    <a href="https://instagram.com" target="_blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/samanidtravel.uz?igsh=MTh4Yzhwb3pnNnZjeg==" target="_blank" rel="noreferrer">
                         <FiInstagram />
                     </a>
-                    <a href="https://t.me" target="_blank" rel="noreferrer">
+                    <a href="https://t.me/samanidtraveluz" target="_blank" rel="noreferrer">
                         <FiSend />
                     </a>
 

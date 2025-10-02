@@ -2,10 +2,17 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import s from "./Footer.module.scss";
 import { FaInstagram, FaFacebook, FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock } from "react-icons/fa";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Footer() {
   const { t } = useTranslation();
-
+  const footerDestinations = [
+    { titleKey: "footer.destinations.samarkand", hashLink: "#tour-1" },
+    { titleKey: "footer.destinations.bukhara", hashLink: "#tour-2" },
+    { titleKey: "footer.destinations.khiva", hashLink: "#tour-2" },
+    { titleKey: "footer.destinations.tashkent", hashLink: "#tour-2" },
+    { titleKey: "footer.destinations.fergana", hashLink: "#tour-3" },
+];
   return (
     <footer className={s.footer}>
       <div className={s.container}>
@@ -37,11 +44,15 @@ export default function Footer() {
           <div className={s.column}>
             <h4>{t("footer.destinations.title")}</h4>
             <ul>
-              <li>{t("footer.destinations.samarkand")}</li>
-              <li>{t("footer.destinations.bukhara")}</li>
-              <li>{t("footer.destinations.khiva")}</li>
-              <li>{t("footer.destinations.tashkent")}</li>
-              <li>{t("footer.destinations.fergana")}</li>
+            {footerDestinations.map((dest, index) => (
+            <li key={index}>
+                {/* Tur paketlar sahifasiga borish va o'sha yerdagi elementga scroll qilish */}
+                
+                <NavLink to={`/tours${dest.hashLink}`} className={({ isActive }) => (isActive ? s.active : "")}>
+                {t(dest.titleKey)} 
+                    </NavLink>
+            </li>
+        ))}
             </ul>
           </div>
 

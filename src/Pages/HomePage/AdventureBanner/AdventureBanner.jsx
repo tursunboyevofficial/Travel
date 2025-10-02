@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import s from "./AdventureBanner.module.scss";
 import bannerImg from "../../../assets/Banner/HomeFooterBanner.png";
+import images from "../../../assets/getItems"
 
 export default function AdventureBanner() {
   const { t, i18n } = useTranslation();
@@ -10,7 +11,7 @@ export default function AdventureBanner() {
   return (
     <section
       className={s.banner}
-      style={{ backgroundImage: `url(${bannerImg})` }}
+      style={{ backgroundImage: `url(${images.HomeBannerFooter})` }}
     >
       <div className={s.overlay}>
         <div className={s.content}>

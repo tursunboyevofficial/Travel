@@ -11,11 +11,6 @@ const ContactForm = () => {
   
   const { t } = useTranslation();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert(t('contactForm.alert'));
-  };
-
   const location = useLocation();
 
   useEffect(() => {
@@ -31,6 +26,46 @@ const ContactForm = () => {
     }
   }, [location]);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  
+    const formData = {
+      fullName: e.target.fullName.value,
+      email: e.target.email.value,
+      phone: e.target.phone.value,
+      package: e.target.package.value,
+      message: e.target.message.value,
+    };
+  
+    // 🔹 Botga yuborish
+    sendToTelegramBot(formData);
+  
+    alert(t('contactForm.alert'));
+  };
+  
+
+  const sendToTelegramBot = (data) => {
+    const token = "6052438923:AAG4EdmYpbsXdFITz_6vEt2kYet-ZeSGJE8"; 
+    const chatId = "5291425408"; 
+    const text = `
+  📩 Yangi kontakt formasi:
+  👤 Ism: ${data.fullName}
+  📧 Email: ${data.email}
+  📱 Telefon: ${data.phone}
+  📦 Paket: ${data.package}
+  📝 Xabar: ${data.message}
+    `;
+  
+    fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        chat_id: chatId,
+        text,
+      }),
+    });
+  };
+  
   return (
     <div className={styles.formContainer}>
       <h2 className={styles.formTitle}>{t('contactForm.title')}</h2>
