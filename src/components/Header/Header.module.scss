@@ -178,3 +178,36 @@
     display: block !important;
   }
 }
+.authBtns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  a {
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+
+  .loginBtn {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  .signupBtn {
+    background: #fff;
+    color: #3db5ff;
+    font-weight: 600;
+
+    &:hover {
+      background: #e2f4ff;
+    }
+  }
+}

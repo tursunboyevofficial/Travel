@@ -1,0 +1,81 @@
+.authWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #3db5ff, #aee6ff);
+  padding: 20px;
+}
+
+.card {
+  width: 380px;
+  padding: 32px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 4px;
+  color: #fff;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 12px;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #3db5ff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+
+  &:hover:not(:disabled) {
+    background: #1c9de6;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.link {
+  margin-top: 12px;
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+}
+
+.success {
+  color: #d4ffd4;
+  font-size: 18px;
+  margin-top: 20px;
+}

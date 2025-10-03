@@ -8,6 +8,7 @@ import FerganaTour from "./TravelPhoto/FerganaTour.jpg";
 import AboutCulture from "./TravelPhoto/AboutCulture.jpg"
 import AboutCentralAsia from "./TravelPhoto/AboutCentralAsia.jpg"
 import HomeBannerFooter from "./Banner/HomeBannerFooter2.jpg"
+import Background from "./Auth/Background.jpg"
 
 
 export default {
@@ -21,4 +22,5 @@ export default {
   AboutCulture,
   AboutCentralAsia,
   HomeBannerFooter,
+  Background,
 };
