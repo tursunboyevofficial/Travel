@@ -1,187 +1,194 @@
+@use "sass:color";
+
 $primary-red: #d9421a;
 $text-dark: #333;
 $nav-btn-bg: #e0e0e0;
 $nav-btn-hover: #c4c4c4;
 
 .section {
-    max-width: 1300px;
-    margin: 60px auto;
-    padding: 0 20px;
+  max-width: 1300px;
+  margin: 60px auto;
+  padding: 0 20px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .title {
-    font-size: 44px;
-    font-weight: 500;
-    font-family: 'Georgia', serif; 
-    color: $text-dark;
-    margin: 0;
+  font-size: 44px;
+  font-weight: 500;
+  font-family: "Georgia", serif;
+  color: $text-dark;
+  margin: 0;
 }
 
 /* --- Navigatsiya tugmalari --- */
 .navigation {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .navBtn {
-    width: 45px;
-    height: 45px;
-    border: none;
-    border-radius: 50%;
-    background-color: $nav-btn-bg;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    position: relative;
-    outline: none;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background-color: $nav-btn-bg;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  outline: none;
 
-    &:hover {
-        background-color: $nav-btn-hover;
-    }
+  &:hover {
+    background-color: $nav-btn-hover;
+  }
 
-    &:disabled {
-        opacity: 0.5;
-        cursor: not-allowed;
-    }
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 
-    /* Strelka ikonkalari */
-    &::after {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 10px;
-        height: 10px;
-        border-top: 2px solid $text-dark;
-        border-right: 2px solid $text-dark;
-    }
+  /* Strelka ikonkalari */
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid $text-dark;
+    border-right: 2px solid $text-dark;
+  }
 }
 
 .prevBtn::after {
-    transform: translate(-50%, -50%) rotate(-135deg);
+  transform: translate(-50%, -50%) rotate(-135deg);
 }
 
 .nextBtn::after {
-    transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
 /* --- Karusel Asosiy Qismi --- */
 .carouselContainer {
-    overflow: hidden;
-    position: relative;
-    margin: 0 -10px; /* Item paddingini qoplash uchun */
+  overflow: hidden;
+  position: relative;
+  margin: 0 -10px; /* Item paddingini qoplash uchun */
 }
 
 .carouselTrack {
-    display: flex;
-    // Transform qiymati JS orqali beriladi
+  display: flex;
+  // Transform qiymati JS orqali beriladi
 }
 
 .animate {
-    transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .carouselItem {
-    flex-shrink: 0;
-    width: calc(100% / 3); /* Bir vaqtda 3 ta item ko'rinishi */
-    padding: 0 10px;
-    box-sizing: border-box;
-    cursor: pointer;
+  flex-shrink: 0;
+  width: calc(100% / 3); /* Bir vaqtda 3 ta item ko'rinishi */
+  padding: 0 10px;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 /* --- Card Stili --- */
 .card {
-    position: relative;
-    height: 420px;
-    border-radius:  50px 6px  50px 6px;
-    overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    display: block; /* A tegini blok element qilish */
+  position: relative;
+  height: 420px;
+  border-radius: 50px 6px 50px 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: block; /* A tegini blok element qilish */
 }
 
 .cardImage {
-    width: 100%;
-    height: 100%;
-    border-radius:  50px 6px  50px 6px;
-    background-size: cover; 
-    background-position: center;
-    transition: transform 0.4s ease-in-out;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px 6px 50px 6px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.4s ease-in-out;
 }
 
 .card:hover .cardImage {
-    transform: scale(1.03); 
+  transform: scale(1.03);
 }
 
 .cardOverlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px 20px 20px 20px;
-    
-    border-radius:  0px 0px  50px 0px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
-    color: white;
-    min-height: 40%; 
-    display: flex;
-    align-items: flex-end;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 20px 20px 20px;
+
+  border-radius: 0px 0px 50px 0px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.2)
+  );
+  color: white;
+  min-height: 40%;
+  display: flex;
+  align-items: flex-end;
 }
 
 .cardText {
-    margin: 0;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1.3;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
 }
 
 /* --- Pastki tugma --- */
 .footer {
-    text-align: center;
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .allAnnouncementsBtn {
-    display: inline-block;
-    padding: 12px 35px;
-    background-color: $primary-red; 
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 35px;
+  background-color: $primary-red;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
 
-    &:hover {
-        background-color: darken($primary-red);
-    }
+  &:hover {
+    background-color: color.adjust($primary-red, $lightness: -8%);
+    // yoki: background-color: color.scale($primary-red, $lightness: -8%);
+  }
 }
 
 /* --- Responsive Dizayn --- */
 @media (max-width: 992px) {
-    .carouselItem {
-        width: calc(100% / 2); /* Planshetlar uchun 2 ta item */
-    }
+  .carouselItem {
+    width: calc(100% / 2); /* Planshetlar uchun 2 ta item */
+  }
 }
 
 @media (max-width: 600px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .navigation {
-        margin-top: 15px;
-    }
-    .title {
-        font-size: 32px;
-    }
-    .carouselItem {
-        width: 100%; /* Mobil uchun 1 ta item */
-    }
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navigation {
+    margin-top: 15px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .carouselItem {
+    width: 100%; /* Mobil uchun 1 ta item */
+  }
 }
