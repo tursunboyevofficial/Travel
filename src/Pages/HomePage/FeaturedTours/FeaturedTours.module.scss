@@ -159,7 +159,7 @@ $nav-btn-hover: #c4c4c4;
     text-transform: uppercase;
 
     &:hover {
-        background-color: darken($primary-red, 8%);
+        background-color: darken($primary-red);
     }
 }
 
