@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { FiGlobe, FiInstagram, FiSend } from "react-icons/fi";
 import { IoMenu, IoClose } from "react-icons/io5";
 import s from "./Header.module.scss";
-import logo from "../../assets/Logo/logo.png";
+// import logo from "../../assets/Logo/logo.png";
 
 // Til ma'lumotlari (Siz xohlagan 5 ta til)
 const LANGUAGES = [
@@ -40,7 +40,7 @@ export default function Header() {
       <div className={s.container}>
         {/* Logo */}
         <div className={s.logo}>
-        <img src={logo} alt="logo" />
+        {/* <img src={logo} alt="logo" /> */}
           <div
             className={s.brand}
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
