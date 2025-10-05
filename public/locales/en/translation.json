@@ -1,4 +1,6 @@
 {
+  "nav_signup":"Sign Up",
+  "nav_login":"Login",
   "coreValues": {
     "heading": "What Drives Us",
     "subheading": "Our core values guide every decision we make and every experience we create.",
@@ -330,7 +332,7 @@
                         },
                           "home": {
                             "hero": {
-                              "title": "Explore the World with Travel Uz",
+                              "title": "Explore the Uzbekistan with Samanid Travel",
                               "subtitle": "Find exciting journeys, affordable tickets, and top-quality services — all through us.",
                               "button": "Get Started"
                             }
@@ -481,7 +483,22 @@
                             "mission_vision_text_vision":"To provide authentic, enriching travel experiences that showcase the magnificent heritage of Central Asia while fostering cultural understanding and supporting local communities. We believe that travel should be transformative, educational, and respectful of the places and people we visit.",
                             "mission_vision_title_vision":"Our Vision",
                             "mission_vision_text_mission":"To be the leading tour operator specializing in Central Asia, recognized for our exceptional service, deep cultural knowledge, and commitment to sustainable tourism. We envision a future where every visitor leaves with a profound appreciation for our region's beauty and heritage.",
-                            "mission_vision_title_mission":"Our Mission"
+                            "mission_vision_title_mission":"Our Mission",
+                            "translation": {
+                              "announcements": {
+                                  "title": "ANNOUNCEMENTS",
+                                  "allButton": "All Announcements",
+                                  "item1": { "title": "EVENTS POSTER" },
+                                  "item2": { "title": "50% reimbursement for tour operators for pavilion rental at international events" },
+                                  "item3": { "title": "Hurry to participate in the international exhibition «EXPO-TRAVEL-2025»!" },
+                                  "item4": { "title": "Hurry to participate in the international exhibition «DITE-2025»!" }
+                              },
+                              "common": {
+                                  "previous": "Previous",
+                                  "next": "Next"
+                              }
+                          }
+                  
                             
                             
                             

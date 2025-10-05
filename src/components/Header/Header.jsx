@@ -40,6 +40,7 @@ export default function Header() {
       <div className={s.container}>
         {/* Logo */}
         <div className={s.logo}>
+        <img src={logo} alt="logo" />
           <div
             className={s.brand}
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}

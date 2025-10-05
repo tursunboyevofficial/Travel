@@ -39,7 +39,21 @@
         margin-bottom: 0.5rem;
         font-size: 0.95rem;
         color: #cccccc;
-
+        button{
+      
+          color: #cccccc;
+          background-color: #0d1b2a;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          cursor: pointer;
+    
+          &:hover {
+            color: #00b4d8;
+          
+        }
+      }
         a {
           color: #cccccc;
           text-decoration: none;
@@ -70,11 +84,15 @@
     a {
       color: #cccccc;
       text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
 
       &:hover {
         color: #00b4d8;
       }
     }
+    
   }
 
   .copy {

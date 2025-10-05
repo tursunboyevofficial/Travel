@@ -1,215 +1,187 @@
-/* Taxminiy ranglar */
-$primary-blue: #2c52ed; // Asosiy ko'k rang (tugmalar uchun)
-$dark-text: #2a2a2a; // Asosiy matn rangi
-$light-text: #666666; // Ikkinchi darajali matn/tagline
-$card-bg: #ffffff;
-$light-blue-bg: #f5f9ff; // Butun bo'limning juda yengil foni
-$location-color: #888;
-$highlight-dot: #007bff; // Highlight nuqtalarining ko'k rangi
+$primary-red: #d9421a;
+$text-dark: #333;
+$nav-btn-bg: #e0e0e0;
+$nav-btn-hover: #c4c4c4;
 
 .section {
-    padding: 60px 0 80px;
-    background-color: $light-blue-bg; /* Yengil, toza fon */
-    font-family: 'Inter', sans-serif;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1300px;
+    margin: 60px auto;
     padding: 0 20px;
-    text-align: center;
 }
 
-.mainTitle {
-    font-size: 36px;
-    font-weight: 700;
-    color: $dark-text;
-    margin-bottom: 15px;
-}
-
-.tagline {
-    font-size: 16px;
-    color: $light-text;
-    max-width: 600px;
-    margin: 0 auto 50px;
-    line-height: 1.5;
-}
-
-.toursGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    gap: 30px;
-
-    @media (max-width: 992px) {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-.card {
-    background-color: $card-bg;
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* Yumshoq soya */
-    overflow: hidden;
-    width: 100%;
-    max-width: 550px;
-    text-align: left;
+.header {
     display: flex;
-    flex-direction: column;
-}
-
-.imageWrapper {
-    position: relative;
-    width: 100%;
-    /* Rasmga 16:9 nisbat berish */
-    padding-top: 56.25%; 
-}
-
-.image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    // Rasm yo'q bo'lsa zaxira fon
-    background-color: #e0e0e0; 
-}
-
-.durationTag {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    background-color: rgba(0, 0, 0, 0.5); /* Yengil qora fon */
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.content {
-    padding: 25px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.cardTitle {
-    font-size: 24px;
-    font-weight: 600;
-    color: $dark-text;
-    margin-bottom: 8px;
-}
-
-.locations {
-    font-size: 14px;
-    color: $location-color;
-    margin-bottom: 15px;
-    display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
-.locationIcon {
-    font-size: 14px;
-    margin-right: 5px;
-    color: $location-color;
-}
-
-.description {
-    font-size: 15px;
-    color: $light-text;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-.highlightsSection {
-    margin-top: auto; /* Pastki qismga itarish */
-    padding-top: 15px;
-}
-
-.highlightsTitle {
-    font-weight: 600;
-    font-size: 15px;
-    color: $dark-text;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.starIcon {
-    margin-right: 5px;
-    color: $primary-blue; 
-}
-
-.highlightsList {
-    list-style: none;
-    padding: 0;
+.title {
+    font-size: 44px;
+    font-weight: 500;
+    font-family: 'Georgia', serif; 
+    color: $text-dark;
     margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    
-    li {
-        width: 48%; /* Ikki ustunli tartib */
-        font-size: 14px;
-        color: $light-text;
-        display: flex;
-        align-items: center;
-        text-align: left;
-    }
 }
 
-.bulletPoint {
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    background-color: $highlight-dot;
-    border-radius: 50%;
-    margin-right: 8px;
-    flex-shrink: 0;
-}
-
-.actions {
+/* --- Navigatsiya tugmalari --- */
+.navigation {
     display: flex;
     gap: 15px;
-    margin-top: 25px;
-    padding-top: 20px;
-    border-top: 1px solid #eee;
-    .Link{
-        width: 100%;
-        button{
-            width: 100%;
-        }
-    }
 }
 
-.button {
-    padding: 12px 20px;
-    border: 1px solid transparent;
-    border-radius: 8px; /* Yumshoqroq chetlar */
-    font-size: 16px;
-    font-weight: 600;
+.navBtn {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: $nav-btn-bg;
     cursor: pointer;
-    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-    width: 50%; /* Teng kenglikda */
-}
+    transition: background-color 0.3s;
+    position: relative;
+    outline: none;
 
-.learnMore {
-    background-color: $primary-blue;
-    color: white;
     &:hover {
-        background-color: darken($primary-blue, 10%);
+        background-color: $nav-btn-hover;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    /* Strelka ikonkalari */
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 10px;
+        height: 10px;
+        border-top: 2px solid $text-dark;
+        border-right: 2px solid $text-dark;
     }
 }
 
-.requestQuote {
-    background-color: transparent;
-    border-color: $primary-blue;
-    color: $primary-blue;
+.prevBtn::after {
+    transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.nextBtn::after {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* --- Karusel Asosiy Qismi --- */
+.carouselContainer {
+    overflow: hidden;
+    position: relative;
+    margin: 0 -10px; /* Item paddingini qoplash uchun */
+}
+
+.carouselTrack {
+    display: flex;
+    // Transform qiymati JS orqali beriladi
+}
+
+.animate {
+    transition: transform 0.5s ease-in-out;
+}
+
+.carouselItem {
+    flex-shrink: 0;
+    width: calc(100% / 3); /* Bir vaqtda 3 ta item ko'rinishi */
+    padding: 0 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+/* --- Card Stili --- */
+.card {
+    position: relative;
+    height: 420px;
+    border-radius:  50px 6px  50px 6px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: block; /* A tegini blok element qilish */
+}
+
+.cardImage {
+    width: 100%;
+    height: 100%;
+    border-radius:  50px 6px  50px 6px;
+    background-size: cover; 
+    background-position: center;
+    transition: transform 0.4s ease-in-out;
+}
+
+.card:hover .cardImage {
+    transform: scale(1.03); 
+}
+
+.cardOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+    
+    border-radius:  0px 0px  50px 0px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
+    color: white;
+    min-height: 40%; 
+    display: flex;
+    align-items: flex-end;
+}
+
+.cardText {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+/* --- Pastki tugma --- */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.allAnnouncementsBtn {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: $primary-red; 
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+
     &:hover {
-        background-color: $light-blue-bg;
+        background-color: darken($primary-red, 8%);
+    }
+}
+
+/* --- Responsive Dizayn --- */
+@media (max-width: 992px) {
+    .carouselItem {
+        width: calc(100% / 2); /* Planshetlar uchun 2 ta item */
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navigation {
+        margin-top: 15px;
+    }
+    .title {
+        font-size: 32px;
+    }
+    .carouselItem {
+        width: 100%; /* Mobil uchun 1 ta item */
     }
 }

@@ -6,6 +6,7 @@ import WhyChoose from "./WhyChoose/WhyChoose";
 import AdventureBanner from "./AdventureBanner/AdventureBanner";
 import TestimonialsSection from "./TestimonialsSection/TestimonialsSection";
 import FeaturedTours from "./FeaturedTours/FeaturedTours";
+import { NavLink } from "react-router-dom";
 
 export default function HomePage() {
   const { t, i18n } = useTranslation();
@@ -22,7 +23,11 @@ export default function HomePage() {
           <div className={s.content}>
             <h1>{t("home.hero.title")}</h1>
             <p>{t("home.hero.subtitle")}</p>
+            <NavLink
+            to="/contact"
+          >
             <button className={s.btn}>{t("home.hero.button")}</button>
+          </NavLink>
           </div>
         </section>
       </div>
