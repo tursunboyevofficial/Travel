@@ -8,7 +8,8 @@ import FerganaTour from "./TravelPhoto/FerganaTour.jpg";
 import AboutCulture from "./TravelPhoto/AboutCulture.jpg"
 import AboutCentralAsia from "./TravelPhoto/AboutCentralAsia.jpg"
 import HomeBannerFooter from "./Banner/HomeBannerFooter2.jpg"
-import Background from "./Auth/Background.jpg
+import Background from "./Auth/Background.jpg"
+import Logo from "./Logo/Logo.png"
 import Buxoro from "./TravelPhoto/homeCaruselBuxoro.jpg"
 import Samarkand from "./TravelPhoto/homeCaruselSmarkand.jpg"
 import Tashkent from "./TravelPhoto/homeCaruselTashkent.jpg"
@@ -27,6 +28,7 @@ export default {
   AboutCentralAsia,
   HomeBannerFooter,
   Background,
+  Logo,
   Xiva,
   Tashkent,
   Samarkand,
