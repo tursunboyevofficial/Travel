@@ -1,5 +1,5 @@
 /* ContactFormPage.module.scss */
-
+@use "sass:color";
 // Ranglar
 $section-bg: #f9fafb;      // Section fonining ochiq kulrang rangi
 $card-bg: #ffffff;         // Kartalar va formaning oq foni
@@ -126,7 +126,7 @@ $info-box-bg: #eef2ff;     // Info boxning juda ochiq ko'k foni
   margin-top: 10px;
 
   &:hover {
-    background-color: darken($whatsapp-green, 8%);
+    background: color.scale($whatsapp-green, $lightness: 8%);
   }
 }
 
@@ -240,7 +240,7 @@ $info-box-bg: #eef2ff;     // Info boxning juda ochiq ko'k foni
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: darken($icon-color, 8%);
+    background: color.scale($icon-color, $lightness: 8%);
   }
 }
 

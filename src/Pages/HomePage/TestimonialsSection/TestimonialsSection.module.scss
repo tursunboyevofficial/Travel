@@ -1,4 +1,4 @@
-/* Global sozlamalar uchun taxminiy ranglar */
+@use "sass:color";
 $primary-blue: #1d3557; // To'q ko'k
 $light-blue-bg: #f7f9fc; // Eng yengil fon rangi (butun bo'lim foni)
 $card-bg: #ffffff; // Kartochka foni
@@ -103,6 +103,6 @@ $border-color: #e0e0e0; // Chegaralar uchun yengil rang
     transition: color 0.2s;
 
     &:hover {
-        color: darken($link-color, 15%);
+        background: color.scale($link-color, $lightness: 15%);
     }
 }

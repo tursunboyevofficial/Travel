@@ -1,3 +1,4 @@
+@use "sass:color";
 $primary-color: #1e90ff;
 $secondary-color: #2ecc71;
 $accent-color: #f39c12;
@@ -190,7 +191,8 @@ $border-radius: 16px;
 }
 
 .locationTag:hover {
-  background: darken($primary-color, 10%);
+    background: color.scale($primary-color, $lightness: -10%);
+  
 }
 
 .modalFooter {
@@ -213,7 +215,7 @@ $border-radius: 16px;
 }
 
 .actionButton:hover {
-  background: darken($secondary-color, 10%);
+  background: color.scale($secondary-color, $lightness: -10%);
 }
 
 @media (max-width: 768px) {

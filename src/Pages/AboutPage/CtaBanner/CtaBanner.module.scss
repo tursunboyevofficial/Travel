@@ -1,5 +1,5 @@
 /* CtaBanner.module.scss */
-
+@use "sass:color";
 $primary-bg-dark: #1f2937;    // Asosiy quyuq fon rangi
 $overlay-color: rgba(0, 0, 0, 0.4); // Fonni quyuqlashtirish uchun overlay
 $text-light: #f3f4f6;         // Ochiq matn rangi
@@ -88,7 +88,7 @@ $button-secondary-border: #d1d5db; // Ikkinchi tugma borderi
   border: 1px solid $button-primary;
 
   &:hover {
-    background-color: darken($button-primary, 10%);
+    background: color.scale($button-primary, $lightness: 10%);
   }
 }
 
